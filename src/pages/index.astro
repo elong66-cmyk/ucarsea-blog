@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+---
+
+<BaseLayout
+  title="UCarsea Insights — Cross-border Used Car Trade, From the Field"
+  description="Policy notes, total-cost breakdowns, and logistics deep-dives from active UCarsea operations. Real shipments, real numbers — China to Laos and Cambodia."
+  ogType="website"
+>
+  <section class="uc-hero">
+    <div class="uc-wrap-narrow">
+      <span class="uc-eyebrow uc-reveal">UCarsea Insights</span>
+      <h1 class="uc-reveal">
+        From the field.<br />
+        <em>Real shipments, real numbers.</em>
+      </h1>
+      <p class="uc-hero-sub uc-reveal">
+        Policy notes, total-cost breakdowns, and logistics deep-dives written from active UCarsea
+        operations. China → Laos and Cambodia.
+      </p>
+    </div>
+  </section>
+
+  <section class="uc-posts">
+    <div class="uc-wrap-narrow">
+      <h2 class="uc-section-title">Latest articles</h2>
+      <ol class="uc-post-list">
+        {
+          posts.map((post) => (
+            <li class="uc-post-item">
+              <a class="uc-post-item-link" href={`/blog/${post.id}/`}>
+                <div class="uc-post-meta">
+                  <span class="uc-post-meta-cat">{post.data.category}</span>
+                  <span>{formatDate(post.data.pubDate)}</span>
+                </div>
+                <div>
+                  <h3 class="uc-post-item-title">{post.data.title}</h3>
+                  <p class="uc-post-item-desc">{post.data.description}</p>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+</BaseLayout>

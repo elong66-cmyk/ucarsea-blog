@@ -1,0 +1,107 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCTA from "../../components/ArticleCTA.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+// Sibling posts for "related"
+const all = (await getCollection("blog", ({ data }) => !data.draft)).filter(
+  (p) => p.id !== post.id
+);
+const related = all
+  .filter((p) => p.data.category === post.data.category)
+  .slice(0, 2);
+if (related.length < 2) {
+  for (const p of all) {
+    if (related.length >= 2) break;
+    if (!related.find((r) => r.id === p.id)) related.push(p);
+  }
+}
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+
+// Build Article JSON-LD
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  author: { "@type": "Organization", name: "UCarsea", url: "https://ucarsea.com" },
+  publisher: {
+    "@type": "Organization",
+    name: "UCarsea",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://ucarsea.com/wp-content/uploads/ucarsea-assets/logo.png",
+    },
+  },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+  articleSection: post.data.category,
+  keywords: post.data.keywords.join(", "),
+};
+---
+
+<BaseLayout
+  title={`${post.data.title} | UCarsea Insights`}
+  description={post.data.description}
+  ogType="article"
+  ogImage={post.data.heroImage ?? "/og-default.jpg"}
+  pubDate={post.data.pubDate}
+  updatedDate={post.data.updatedDate}
+  category={post.data.category}
+  tags={post.data.tags}
+>
+  <article class="uc-article">
+    <div class="uc-wrap-narrow">
+      <header class="uc-article-header">
+        <div class="uc-article-meta">
+          <span class="uc-article-meta-cat">{post.data.category}</span>
+          <span>{formatDate(post.data.pubDate)}</span>
+          {post.data.updatedDate && <span>· Updated {formatDate(post.data.updatedDate)}</span>}
+        </div>
+        <h1>{post.data.title}</h1>
+        <p class="uc-article-desc">{post.data.description}</p>
+      </header>
+
+      <div class="uc-article-body">
+        <Content />
+      </div>
+
+      <ArticleCTA />
+
+      {
+        related.length > 0 && (
+          <aside class="uc-related">
+            <h3>Related guides</h3>
+            <ul class="uc-related-list">
+              {related.map((p) => (
+                <li>
+                  <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )
+      }
+    </div>
+  </article>
+
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(articleJsonLd)}
+  />
+</BaseLayout>

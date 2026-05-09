@@ -1,0 +1,21 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = "Ready to source from China?",
+  description = "UCarsea handles sourcing, inspection, and cross-border logistics end to end. We work with established Laos/Cambodia importers buying 5+ vehicles per month.",
+} = Astro.props;
+---
+
+<aside class="uc-article-cta">
+  <h3>{title}</h3>
+  <p>{description}</p>
+  <div class="uc-btn-row">
+    <a href="https://ucarsea.com/?post_type=vehicle" class="uc-btn uc-btn-primary"
+      >Browse inventory →</a
+    >
+    <a href="https://t.me/ucarsea" class="uc-btn uc-btn-ghost" rel="noopener">Telegram @ucarsea</a>
+  </div>
+</aside>

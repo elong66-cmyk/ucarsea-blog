@@ -1,0 +1,18 @@
+---
+const pathname = Astro.url.pathname;
+const isHome = pathname === "/";
+---
+
+<nav class="uc-nav" aria-label="Site">
+  <div class="uc-nav-inner">
+    <a class="uc-nav-brand" href="/">
+      UCarsea<span class="uc-nav-sub">Insights</span>
+    </a>
+    <div class="uc-nav-links">
+      <a href="/" aria-current={isHome ? "page" : undefined}>Articles</a>
+      <a href="https://ucarsea.com/?post_type=vehicle">Inventory</a>
+      <a href="https://ucarsea.com/services/">Services</a>
+      <a href="https://ucarsea.com/contact/">Contact</a>
+    </div>
+  </div>
+</nav>
