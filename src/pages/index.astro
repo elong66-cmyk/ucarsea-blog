@@ -36,7 +36,7 @@ const formatDate = (d: Date) =>
         {
           posts.map((post) => (
             <li class="uc-post-item">
-              <a class="uc-post-item-link" href={`/blog/${post.id}/`}>
+              <a class="uc-post-item-link" href={`/${post.id}/`}>
                 <div class="uc-post-meta">
                   <span class="uc-post-meta-cat">{post.data.category}</span>
                   <span>{formatDate(post.data.pubDate)}</span>

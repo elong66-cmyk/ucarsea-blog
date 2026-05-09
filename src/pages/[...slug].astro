@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import ArticleCTA from "../../components/ArticleCTA.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ArticleCTA from "../components/ArticleCTA.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
@@ -89,7 +89,7 @@ const articleJsonLd = {
             <ul class="uc-related-list">
               {related.map((p) => (
                 <li>
-                  <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+                  <a href={`/${p.id}/`}>{p.data.title}</a>
                 </li>
               ))}
             </ul>
