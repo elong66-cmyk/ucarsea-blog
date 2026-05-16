@@ -83,6 +83,18 @@ const fullOgImage = new URL(ogImage, Astro.site).toString();
         sameAs: ["https://t.me/ucarsea"],
       })}
     />
+    <!-- Google Analytics 4 — UCarsea -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NVLNSGL40N"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-NVLNSGL40N", { anonymize_ip: true });
+    </script>
   </head>
   <body>
     <Nav />
