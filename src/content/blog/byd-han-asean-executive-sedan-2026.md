@@ -2,7 +2,7 @@
 title: "BYD Han Sourcing Guide: The Chinese Executive Sedan for Phnom Penh and Hanoi"
 description: "The BYD Han is the Chinese answer to the Camry-to-Lexus upgrade path. For ASEAN executive buyers who want presence without German-luxury pricing, the Han DM-i and Han EV are the SKUs to know. Full sourcing math, trim breakdown, FOB cost, and the honest resale reality for 2026."
 pubDate: 2026-05-21
-draft: true
+draft: false
 category: Insights
 tags:
   - byd-han
