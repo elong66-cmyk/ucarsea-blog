@@ -2,7 +2,7 @@
 title: "Wuling Bingo Sourcing: The Entry-Level EV Volume Play for ASEAN Tier-2 Markets"
 description: "The Wuling Bingo is the cheapest viable LHD EV import into Cambodia, Laos, and Vietnam. Thin per-unit margin, but the volume and turnover math works for dealers serving tier-2 cities and ride-share fleets. Full sourcing guide, FOB cost, battery caveats for 2026."
 pubDate: 2026-05-22
-draft: true
+draft: false
 category: Insights
 tags:
   - wuling-bingo
