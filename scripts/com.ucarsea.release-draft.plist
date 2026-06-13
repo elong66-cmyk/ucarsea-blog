@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ucarsea.release-draft</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Volumes/Workspace/projects/ucarsea-blog/scripts/release-next-draft.sh</string>
+  </array>
+
+  <!-- Run daily at 10:00 local time -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>10</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <!-- If the Mac was asleep at 10:00, run as soon as it wakes/logs in.
+       The script itself dedups per-day and exits cleanly if the volume
+       is not mounted, so this is safe to fire on every load. -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Volumes/Workspace/projects/ucarsea-blog/scripts/launchd-stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Volumes/Workspace/projects/ucarsea-blog/scripts/launchd-stderr.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>

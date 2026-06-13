@@ -15,7 +15,21 @@ BLOG="$REPO/src/content/blog"
 LOG="$REPO/scripts/release-log.txt"
 TODAY="$(date +%Y-%m-%d)"
 
-cd "$REPO"
+# Guard: the repo lives on an external volume (/Volumes/Workspace) that may not
+# be mounted yet when launchd fires on login/wake. Exit cleanly (NOT an error)
+# so launchd does not flag the job as failed (was exit-code 78). The next
+# wake/calendar fire retries once the volume is mounted.
+if [ ! -d "$BLOG" ]; then
+  exit 0
+fi
+
+cd "$REPO" || exit 0
+
+# Catch-up dedup: RunAtLoad fires on every login/wake. Skip if we already
+# released (or no-op'd) today, so a wake doesn't double-publish.
+if [ -f "$LOG" ] && grep -q "^\[$TODAY " "$LOG"; then
+  exit 0
+fi
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG"; }
 
