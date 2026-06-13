@@ -2,7 +2,7 @@
 title: "Toyota Land Cruiser Sourcing: The Premium-Margin, Low-Volume Cross-Border Reality"
 description: "The Land Cruiser is the highest-margin single SKU in ASEAN cross-border trade — and the trickiest. High duty stack, careful displacement-tier management, and a buyer pool of business owners, NGOs, and government-adjacent purchasers. Full sourcing math for LC 200 and LC 300 in 2026."
 pubDate: 2026-05-23
-draft: true
+draft: false
 category: Insights
 tags:
   - toyota-land-cruiser
@@ -63,7 +63,7 @@ Rule of thumb for 2026:
 - **3.5L petrol (LC 300)** → mid band, acceptable.
 - **4.0L+ petrol (LC 200)** → highest tax band — only source if the buyer specifically wants it and accepts the premium.
 
-Always model the specific VIN's displacement against the destination tax table *before* FOB-quoting. A Land Cruiser quoted on the wrong tax assumption can wipe out the entire (large) margin. See [Cambodia duty mechanics](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/).
+Always model the specific VIN's displacement against the destination tax table *before* EXW-quoting. A Land Cruiser quoted on the wrong tax assumption can wipe out the entire (large) margin. See [Cambodia duty mechanics](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/).
 
 ## Landed cost math (Phnom Penh — LC 200 example)
 
@@ -73,7 +73,7 @@ Always model the specific VIN's displacement against the destination tax table *
 |---|---|
 | Dealer purchase (China, used) | $58,000 |
 | UCarsea margin + inspection + docs | $3,500 |
-| **FOB Shenzhen** | **$61,500** |
+| **EXW China** | **$61,500** |
 | Sea freight (oversize) | $1,250 |
 | Cambodia CIF | $62,750 |
 | Import duty (35%) + special tax (high band, 4.0L) + VAT | ~$58,000 |
@@ -88,7 +88,7 @@ Same vehicle via China-Laos railway (Land Cruisers ship well by rail — robust,
 
 | Cost line | USD |
 |---|---|
-| FOB Kunming | $61,500 |
+| EXW China | $61,500 |
 | China-Laos railway freight (oversize) | $780 |
 | Laos CIF | $62,280 |
 | Import duty + excise (high displacement band) + VAT | ~$52,000 |
@@ -118,7 +118,7 @@ A bad Land Cruiser is a catastrophic loss, not a thin one. Mandatory checks:
 5. **Odometer truthfulness** — high-value = high rollback incentive. Cross-check service records.
 6. **Suspension / KDSS** (LC 200) — expensive to repair, check for leaks/faults.
 
-We do not FOB-quote any Land Cruiser failing items 1, 2, or 4. The downside is too large.
+We do not EXW-quote any Land Cruiser failing items 1, 2, or 4. The downside is too large.
 
 ## Service and parts — the strongest Toyota moat
 
