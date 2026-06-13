@@ -2,7 +2,7 @@
 title: "Ford Ranger from China to Cambodia: The 2026 Dealer Sourcing Guide"
 description: "Pickups are Cambodia's #1 used-import segment, and the Ford Ranger leads it. But sourcing a China-built LHD Ranger for Phnom Penh is not the same as buying one off a Bangkok lot. Here is what a Cambodian dealer needs to know in 2026: which trims move, real landed-cost math, the inspection points that matter, and how China supply stacks up against the Thai and Japanese alternatives."
 pubDate: 2026-06-12
-draft: true
+draft: false
 category: Insights
 tags:
   - cambodia
