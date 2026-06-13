@@ -2,7 +2,7 @@
 title: "Geely Geometry C Sourcing: The 600 km Mid-Tier EV That Fills the Atto 3 → Han Gap"
 description: "The Geometry C is the long-range answer for ASEAN buyers who need more than an Atto 3's city range but won't pay Han money. 600 km real-world capability changes the inter-province EV conversation. Full sourcing math, EXW cost, and the honest Geely service-network caveat for 2026."
 pubDate: 2026-05-24
-draft: true
+draft: false
 category: Insights
 tags:
   - geely-geometry-c
