@@ -1,6 +1,6 @@
 ---
-title: "BYD Atto 3 Sourcing Guide for ASEAN Dealers: Used Import Math, Buyer Reality, FOB Cost"
-description: "The Atto 3 is the most-imported Chinese EV in Cambodia, Laos, and Vietnam in 2026. Used 2022-2024 units clear at landed costs 18-25% below new VinFast equivalents. Here is the full sourcing guide — China supply, trim breakdown, battery health, FOB pricing, dealer margin math."
+title: "BYD Atto 3 Sourcing Guide for ASEAN Dealers: Used Import Math, Buyer Reality, EXW Cost"
+description: "The Atto 3 is the most-imported Chinese EV in Cambodia, Laos, and Vietnam in 2026. Used 2022-2024 units clear at landed costs 18-25% below new VinFast equivalents. Here is the full sourcing guide — China supply, trim breakdown, battery health, EXW pricing, dealer margin math."
 pubDate: 2026-05-19
 category: Insights
 tags:
@@ -82,7 +82,7 @@ Worked example: 2023 BYD Atto 3 Boost (50.1 kWh, 510 km), 28,000 km, condition B
 |---|---|
 | Dealer purchase (China, used) | $13,800 |
 | UCarsea margin + inspection + docs | $1,400 |
-| **FOB Shenzhen (our quote)** | **$15,200** |
+| **EXW China (our quote)** | **$15,200** |
 | Sea freight Shenzhen → Sihanoukville | $850 |
 | Cambodia CIF | $16,050 |
 | Import duty (35% × CIF for cars) | $5,617 |
@@ -101,7 +101,7 @@ Same 2023 Atto 3 Boost into Vietnam:
 
 | Cost line | USD |
 |---|---|
-| FOB Shenzhen | $15,200 |
+| EXW China | $15,200 |
 | Sea freight Shenzhen → Hai Phong | $720 |
 | Vietnam CIF | $15,920 |
 | Import duty (45% × CIF) | $7,164 |
@@ -127,7 +127,7 @@ What clean used Atto 3 units actually clear at, on the ground:
 
 A 2023 Boost trim with 25-30K km landing at $27,000 in Phnom Penh and clearing dealer retail at $23,500 leaves margin of roughly **-$3,500 below cost** on that single unit. The math breaks at that landed cost.
 
-**What actually works**: source the same vehicle for $13,000-13,500 FOB (lower-mileage 2022 Active trim, or sharper purchasing through volume), keeping landed Phnom Penh around $24,500-25,500, and resale around $23K-25K. Margin then runs $0-2K plus you build a dealer relationship for repeat business.
+**What actually works**: source the same vehicle for $13,000-13,500 EXW (lower-mileage 2022 Active trim, or sharper purchasing through volume), keeping landed Phnom Penh around $24,500-25,500, and resale around $23K-25K. Margin then runs $0-2K plus you build a dealer relationship for repeat business.
 
 The honest read: **single-unit margin is thin on Atto 3 right now.** This is a volume-and-relationship trade, not a high-margin trade. Dealers who buy 5-10 Atto 3 per quarter from a stable supplier earn through repeat ordering, not through hero margins on individual units.
 
@@ -155,7 +155,7 @@ LFP cells (Blade battery) hold up well — most 2022-2023 Atto 3 units we inspec
 - Vehicles stored long-term in hot climates (less common in Eastern China sourcing)
 - Vehicles with prior accident damage to the pack (visible in CarFax-equivalent records)
 
-We refuse to FOB-quote Atto 3 units with SoH below 82% — the dealer ends up explaining it to a frustrated buyer at year 2 and the relationship sours. It is not worth $300 of saved purchase cost.
+We refuse to EXW-quote Atto 3 units with SoH below 82% — the dealer ends up explaining it to a frustrated buyer at year 2 and the relationship sours. It is not worth $300 of saved purchase cost.
 
 ## Customer profile that converts on Atto 3
 
@@ -194,7 +194,7 @@ UCarsea sources LHD Atto 3 from Eastern China auction channels (Suzhou, Wuxi, He
 4. Service history pull from BYD diagnostic
 5. Battery cycle count cross-check
 
-Current inventory and FOB pricing are in our [main inventory](https://ucarsea.com/inventory/), or [send an inquiry](https://ucarsea.com/contact/) with your target market and trim — we'll quote landed within 12 hours.
+Current inventory and EXW pricing are in our [main inventory](https://ucarsea.com/inventory/), or [send an inquiry](https://ucarsea.com/contact/) with your target market and trim — we'll quote landed within 12 hours.
 
 ## When the Atto 3 is the wrong answer
 

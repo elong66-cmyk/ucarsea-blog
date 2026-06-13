@@ -57,7 +57,7 @@ For a passenger sedan:
 
 ### Worked example: 2019 Toyota Camry 2.0L
 
-- China FOB price: ¥85,000 ≈ USD 11,800
+- China EXW price: ¥85,000 ≈ USD 11,800
 - Freight Kunming → Vientiane: USD 600
 - Insurance: USD 100
 - **CIF**: USD 12,500

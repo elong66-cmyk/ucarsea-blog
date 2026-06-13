@@ -165,7 +165,7 @@ None of these are permanent. All three weaken every quarter.
 
 ## How UCarsea fits
 
-We source LHD used cars from China — from major auction networks in Kunming, Chongqing, Chengdu, Shenzhen and Guangzhou — inspect with third-party labs, lock FOB pricing in USD, and handle the full Kunming–Mohan–Boten–Vientiane railway corridor end-to-end. For Lao dealers running a Japan-anchored business but exploring 3–5 China-sourced units per month, our entry workflow is designed to slot into your existing operation without rebuilding it.
+We source LHD used cars from China — from major auction networks in Kunming, Chongqing, Chengdu, Shenzhen and Guangzhou — inspect with third-party labs, lock EXW pricing in USD, and handle the full Kunming–Mohan–Boten–Vientiane railway corridor end-to-end. For Lao dealers running a Japan-anchored business but exploring 3–5 China-sourced units per month, our entry workflow is designed to slot into your existing operation without rebuilding it.
 
 Whether the next car is a 2022 BYD Yuan Plus for a Vientiane ride-hail operator or a 2021 Haval H6 for a Luang Prabang family-dealership customer, the sourcing-to-delivery process is the same — and lands in your lot within a week of confirmation.
 

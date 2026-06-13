@@ -1,6 +1,6 @@
 ---
 title: "BYD Han Sourcing Guide: The Chinese Executive Sedan for Phnom Penh and Hanoi"
-description: "The BYD Han is the Chinese answer to the Camry-to-Lexus upgrade path. For ASEAN executive buyers who want presence without German-luxury pricing, the Han DM-i and Han EV are the SKUs to know. Full sourcing math, trim breakdown, FOB cost, and the honest resale reality for 2026."
+description: "The BYD Han is the Chinese answer to the Camry-to-Lexus upgrade path. For ASEAN executive buyers who want presence without German-luxury pricing, the Han DM-i and Han EV are the SKUs to know. Full sourcing math, trim breakdown, EXW cost, and the honest resale reality for 2026."
 pubDate: 2026-05-21
 draft: false
 category: Insights
@@ -76,7 +76,7 @@ The Flagship trims carry the rotating central screen, Nappa leather, and premium
 |---|---|
 | Dealer purchase (China, used) | $25,400 |
 | UCarsea margin + inspection + docs | $1,700 |
-| **FOB Shenzhen** | **$27,100** |
+| **EXW China** | **$27,100** |
 | Sea freight Shenzhen → Sihanoukville | $850 |
 | Cambodia CIF | $27,950 |
 | Import duty + special tax + VAT (PHEV preferential) | ~$11,200 |
@@ -91,7 +91,7 @@ Same vehicle into Vietnam:
 
 | Cost line | USD |
 |---|---|
-| FOB Shenzhen | $27,100 |
+| EXW China | $27,100 |
 | Sea freight Shenzhen → Hai Phong | $720 |
 | Vietnam CIF | $27,820 |
 | Import duty + SCT (PHEV preferential) + VAT | ~$10,900 |

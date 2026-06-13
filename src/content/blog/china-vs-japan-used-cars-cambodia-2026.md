@@ -71,7 +71,7 @@ Let's compare the same vehicle — 2018 Toyota Camry 2.5L, mid-grade trim, ~60,0
 
 | Line item | USD |
 |---|---|
-| China-side dealer FOB (LHD-spec, normal supply) | 11,500 |
+| China dealer EXW (LHD-spec, normal supply) | 11,500 |
 | Ocean freight Shenzhen → Sihanoukville | 900 |
 | Insurance | 150 |
 | **CIF Sihanoukville** | **12,550** |

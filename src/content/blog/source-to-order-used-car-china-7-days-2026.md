@@ -29,7 +29,7 @@ keywords:
 - The real dealer brief is never "a Camry." It is "**a 2020 Camry 2.5G, LHD, under 60,000 km, black or white, target landed Sihanoukville around USD 25k.**" That specificity is the entire job.
 - Inland or thin-pool operators cannot meaningfully run source-to-order — they can only offer whatever happens to sit on their lot.
 - The Pearl River Delta carries **Guangdong's 2.76M annual used-car transactions** and **Dongguan's 4M+ vehicle stock** — the only Chinese pool deep enough to match an arbitrary SKU brief quickly.
-- Our **7-day workflow**: brief in by day 0, 2–4 candidate units returned day 2, pre-inspected report by day 4, confirmed unit + FOB quote by day 5, deposit + B/L underway by day 7.
+- Our **7-day workflow**: brief in by day 0, 2–4 candidate units returned day 2, pre-inspected report by day 4, confirmed unit + EXW quote by day 5, deposit + B/L underway by day 7.
 - We do not promise the impossible (rare colour combos in 48 hours, every spec without compromise). The honest version of the process is below.
 
 ## The brief that actually buys a car
@@ -62,9 +62,9 @@ What happens after a real SKU brief lands in our inbox.
 |---|---|---|
 | **0** | Brief received. We confirm receipt within 2 hours, ask 1–2 clarifying questions only where ambiguous (target port, EV vs ICE substitutability, hard vs soft colour constraint). | UCarsea sourcing desk |
 | **0–1** | Search across the PRD dealer network for units matching the spec band. Typical hit count: **6–12 candidate units** for a normal brief, 2–3 for a tight brief. | UCarsea + PRD network |
-| **2** | We send **2–4 best candidates** with photos, VIN, mileage, history, condition photos, and indicative FOB. Dealer rules out 1–2 quickly. | UCarsea → dealer |
+| **2** | We send **2–4 best candidates** with photos, VIN, mileage, history, condition photos, and indicative EXW. Dealer rules out 1–2 quickly. | UCarsea → dealer |
 | **3–4** | Independent third-party physical inspection on the remaining candidates (body, frame, drivetrain, electronics, history check, road test). Full report PDF for each. | Inspection vendor |
-| **5** | Inspection reports returned. Dealer picks the unit. We lock the FOB price and send a formal quote: FOB China + indicative CIF to the destination port. | Dealer → UCarsea |
+| **5** | Inspection reports returned. Dealer picks the unit. We lock the EXW price and send a formal quote: EXW China + indicative CIF to the destination port. | Dealer → UCarsea |
 | **6–7** | 30% deposit received. We purchase the unit from the dealer, begin export paperwork, schedule loading. Vehicle physically held for the buyer. | Buyer → UCarsea → dealer |
 | **+7 onward** | Sea route Cambodia / Vietnam: 14–21 days FOB Shenzhen → arrival. Rail route Laos: 36 hours Kunming → Vientiane. Balance against B/L. | Logistics partners |
 
@@ -91,7 +91,7 @@ Anonymised examples reflecting the typical shapes of inbound briefs (model detai
 - Day 0–1: 8 candidates surfaced in the PRD network, age-cap compliant for Laos (post-2025 policy change).
 - Day 2: 4 candidates sent with condition photos. Dealer rules out one (visible bumper repair) and two (mileage 70k+).
 - Day 4: inspection on remaining unit, 2022 Hilux 4×4 AT, 38k km, condition B+.
-- Day 5: FOB Kunming locked USD 27.9k. Landed Vientiane estimate USD 38.4k via [China–Laos railway from Kunming](https://blog.ucarsea.com/china-to-laos-car-shipping-kunming/) — 36-hour overland transit.
+- Day 5: EXW China locked USD 27.9k (Laos route is overland — no FOB layer). Landed Vientiane estimate USD 38.4k via [China–Laos railway from Kunming](https://blog.ucarsea.com/china-to-laos-car-shipping-kunming/) — 36-hour overland transit.
 - Total: brief in to railway dispatch in under 9 days.
 
 ### Vietnam — BYD Atto 3 to Hanoi
@@ -109,7 +109,7 @@ Anonymised examples reflecting the typical shapes of inbound briefs (model detai
 The honest version. We will tell you the same thing in the first reply if your brief hits one of these constraints:
 
 1. **Rare colour combos in 48 hours.** A black-on-tan 2020 Lexus ES350 with sunroof, 25k km, in two days — the pool depth helps, it does not produce miracles. Reasonable response: a 5–7 day window for unusual specs.
-2. **Sub-floor pricing.** If your target landed cost requires the FOB to clear below market by 12%+, the deal has to compromise on mileage, vintage, or trim. We will tell you which compromise costs least.
+2. **Sub-floor pricing.** If your target landed cost requires the EXW to clear below market by 12%+, the deal has to compromise on mileage, vintage, or trim. We will tell you which compromise costs least.
 3. **Battery condition certainty on older EVs.** EVs older than 2021 with no service history are not sourced for export, full stop. The downside risk is not worth the margin.
 4. **Non-LHD requests.** ASEAN markets we serve (Laos, Cambodia, Vietnam, Myanmar-on-request) are LHD-only. RHD requests are routed out of Japan, not us.
 5. **Single units when the math doesn't survive logistics.** A single unit with $700 in inland transport, $850 in sea freight, and $300 in clearance has the same fixed-cost base as 5 units sharing it. Briefs below 3 units are doable but the per-unit economics are honest.

@@ -38,7 +38,7 @@ So we are publishing one **real shipment's** numbers. A 2019 Toyota Camry 2.0L H
 
 | Item | Cost (USD) | Notes |
 |---|---|---|
-| Vehicle FOB price | 11,800 | Negotiated down from 12,300 listing |
+| Vehicle EXW price | 11,800 | Negotiated down from 12,300 listing |
 | Third-party inspection (查博士) | 130 | Optional but customer required |
 | China-side title transfer paperwork | 90 | Local registration office fees |
 | **China sourcing subtotal** | **12,020** | |

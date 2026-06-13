@@ -58,13 +58,13 @@ Five forces, stacked:
 
 In February 2026, BYD's **overseas sales exceeded its China domestic sales for the first time**. The 2024–2026 strategic shift for Chinese auto majors has been to treat the domestic market as a launchpad, not a destination. BYD's $1B Indonesia factory targets 150,000 units/year by end of 2026 ([Tridens BYD sales statistics](https://tridenstechnology.com/byd-sales-statistics/)).
 
-For importers, this means OEMs are actively pricing for export volume, not protecting domestic margin. China-side FOB prices for export-spec EVs are aggressive in a way Japanese OEMs are not currently matching.
+For importers, this means OEMs are actively pricing for export volume, not protecting domestic margin. China-side EXW prices for export-spec EVs are aggressive in a way Japanese OEMs are not currently matching.
 
 ### 2. The price gap is too large to ignore
 
 Wuling Air EV sells in Indonesia for **USD 16,000** — locally assembled, entry-level, 200km range. A comparable Japanese ICE compact in the same market sits in the USD 17,000–22,000 band. For first-time car buyers and ride-hail fleets, that is no longer a "premium EV trade-off" — it is the cheaper option, with lower operating cost on top.
 
-For used imports, the math is even sharper. A 2022 BYD Atto 3 sourced from China at FOB USD 14,000–17,000 lands in Cambodia at roughly 40% effective tax versus 78% on a comparable Camry. We worked the full math in [our Cambodia import duty guide](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/).
+For used imports, the math is even sharper. A 2022 BYD Atto 3 sourced from China at EXW USD 14,000–17,000 lands in Cambodia at roughly 40% effective tax versus 78% on a comparable Camry. We worked the full math in [our Cambodia import duty guide](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/).
 
 ### 3. Government policy is now actively pro-EV
 

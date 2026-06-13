@@ -1,6 +1,6 @@
 ---
 title: "2020-2022 Toyota Camry: China LHD vs Japan LHD Auction Path for ASEAN Importers"
-description: "The Camry is the highest-volume used sedan import into Southeast Asia. Post-2022 the Japan auction path got blocked for Cambodia and tightened for Vietnam. Here is the full China LHD sourcing math, trim comparison, FOB pricing, and dealer margin reality for 2020-2022 Toyota Camry imports."
+description: "The Camry is the highest-volume used sedan import into Southeast Asia. Post-2022 the Japan auction path got blocked for Cambodia and tightened for Vietnam. Here is the full China LHD sourcing math, trim comparison, EXW pricing, and dealer margin reality for 2020-2022 Toyota Camry imports."
 pubDate: 2026-05-20
 category: Insights
 tags:
@@ -91,7 +91,7 @@ Worked example: 2021 Toyota Camry 2.5G Elegance, 42,000 km, condition B+, source
 |---|---|
 | Dealer purchase (China, used) | $18,800 |
 | UCarsea margin + inspection + docs | $1,300 |
-| **FOB Shenzhen (our quote)** | **$20,100** |
+| **EXW China (our quote)** | **$20,100** |
 | Sea freight Shenzhen → Sihanoukville | $850 |
 | Cambodia CIF | $20,950 |
 | Import duty (35% × CIF) | $7,333 |
@@ -110,7 +110,7 @@ Same 2021 Camry 2.5G into Laos:
 
 | Cost line | USD |
 |---|---|
-| FOB Kunming (overland) | $20,100 |
+| EXW China (Kunming overland route to Laos) | $20,100 |
 | China-Laos railway freight | $480 |
 | Laos CIF | $20,580 |
 | Import duty (~30% × CIF) | $6,174 |
@@ -163,7 +163,7 @@ The Camry wins on **risk-adjusted margin** — not on absolute margin or feature
 
 ## Inspection checklist before purchase
 
-Camry-specific things to verify before FOB-quoting a Chinese auction unit:
+Camry-specific things to verify before EXW-quoting a Chinese auction unit:
 
 1. **Engine compression** on cylinder 4 (a known mid-life issue on 2018-2020 2.5L NA engines if oil change intervals were stretched).
 2. **Transmission fluid color** — Aisin 8-speed auto. Brown/burnt fluid = $2-3K rebuild risk.
@@ -172,13 +172,13 @@ Camry-specific things to verify before FOB-quoting a Chinese auction unit:
 5. **Mileage truthfulness** — Chinese-market Camry odometer rollbacks are rare but not zero. Cross-check with maintenance records.
 6. **Body panel alignment** — check trunk-to-fender gaps, hood-to-fender gaps for prior collision repair.
 
-We refuse to FOB-quote Camry units where any of items 1-3 fail inspection. The customer-recovery cost on a broken Camry is brand-damaging for the dealer relationship.
+We refuse to EXW-quote Camry units where any of items 1-3 fail inspection. The customer-recovery cost on a broken Camry is brand-damaging for the dealer relationship.
 
 ## Where the math breaks
 
 This is a low-margin volume trade. The economics break when:
 
-- **Source price spikes** — a temporary Camry inventory shortage in Eastern China (happened Q4 2024) pushed FOB up $1,500 and erased dealer margins for two months.
+- **Source price spikes** — a temporary Camry inventory shortage in Eastern China (happened Q4 2024) pushed EXW up $1,500 and erased dealer margins for two months.
 - **Customer downgrades to Geely Emgrand or Chery Arrizo** — economic pressure pushes buyers down-market.
 - **Hybrid SKUs cannibalize ICE** — as Cambodia and Vietnam EV preferential rates expand, ICE Camry buyers test-drive BYD Han and don't come back.
 

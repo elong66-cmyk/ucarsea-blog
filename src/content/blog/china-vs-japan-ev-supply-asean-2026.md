@@ -75,7 +75,7 @@ For an importer in Phnom Penh asking "can I source a 2022 used EV at scale?", th
 | Typical condition | 5–8 years old, RHD | 2–4 years old, LHD |
 | Pricing for 2022 mid-tier sedan | USD 14K–18K (small volume) | USD 9K–13K (steady availability) |
 
-The pricing gap is real, and it widens the closer you look at specific models. A 2022 BYD Han EV sourced from a tier-2 Chinese auction lands at USD 11K–14K FOB. A nominally equivalent Japanese used EV — say a 2020 Nissan Leaf e+ — sells closer to USD 14K–16K FOB **before** you factor in RHD-to-LHD conversion costs and the question of where Cambodia even accepts RHD imports (it doesn't — see our [Cambodia import duty breakdown](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/)).
+The pricing gap is real, and it widens the closer you look at specific models. A 2022 BYD Han EV sourced from a tier-2 Chinese auction lands at USD 11K–14K EXW. A nominally equivalent Japanese used EV — say a 2020 Nissan Leaf e+ — sells closer to USD 14K–16K EXW **before** you factor in RHD-to-LHD conversion costs and the question of where Cambodia even accepts RHD imports (it doesn't — see our [Cambodia import duty breakdown](https://blog.ucarsea.com/cambodia-used-car-import-duty-2026/)).
 
 ---
 
@@ -100,7 +100,7 @@ But if a customer walks in asking specifically for a used EV, three things are t
 
 1. **You will not source it from Japan at a real-world price-volume combination.** The inventory isn't there.
 2. **Your only at-scale sourcing path is China.** This is not a temporary 2026 dynamic. The penetration gap is structural and widening.
-3. **You probably want one supplier who handles the LHD-China-export workflow end-to-end** — inspection, FOB pricing, target-market documentation, cross-border logistics. Doing this piecewise from a Japanese-sourcing playbook leaves margin on the table at every step.
+3. **You probably want one supplier who handles the LHD-China-export workflow end-to-end** — inspection, EXW pricing, target-market documentation, cross-border logistics. Doing this piecewise from a Japanese-sourcing playbook leaves margin on the table at every step.
 
 ---
 
@@ -127,7 +127,7 @@ If you can't answer yes to any, the Japanese petrol channel is still your channe
 
 ## How UCarsea fits
 
-We source from China, inspect with third-party labs, lock FOB pricing, and ship to Laos / Cambodia / Vietnam / Myanmar — currently five countries direct, expanding to Central Asia and Africa through 2027.
+We source from China, inspect with third-party labs, lock EXW pricing, and ship to Laos / Cambodia / Vietnam / Myanmar — currently five countries direct, expanding to Central Asia and Africa through 2027.
 
 For used Chinese EVs specifically, our inspection adds a battery State-of-Health (SoH) measurement, charging port compatibility check against your target market's standard (Type 2 vs GB/T), and a documented warranty-transferability note for each unit.
 

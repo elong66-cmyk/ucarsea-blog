@@ -1,6 +1,6 @@
 ---
 title: "Wuling Bingo Sourcing: The Entry-Level EV Volume Play for ASEAN Tier-2 Markets"
-description: "The Wuling Bingo is the cheapest viable LHD EV import into Cambodia, Laos, and Vietnam. Thin per-unit margin, but the volume and turnover math works for dealers serving tier-2 cities and ride-share fleets. Full sourcing guide, FOB cost, battery caveats for 2026."
+description: "The Wuling Bingo is the cheapest viable LHD EV import into Cambodia, Laos, and Vietnam. Thin per-unit margin, but the volume and turnover math works for dealers serving tier-2 cities and ride-share fleets. Full sourcing guide, EXW cost, battery caveats for 2026."
 pubDate: 2026-05-22
 draft: false
 category: Insights
@@ -74,7 +74,7 @@ The Wuling Bingo (宝骏悦也 / Bingo) is a compact 5-door urban EV from SAIC-G
 |---|---|
 | Dealer purchase (China, used) | $7,400 |
 | UCarsea margin + inspection + docs | $950 |
-| **FOB Shenzhen** | **$8,350** |
+| **EXW China** | **$8,350** |
 | Sea freight Shenzhen → Sihanoukville | $850 |
 | Cambodia CIF | $9,200 |
 | Import duty + special tax + VAT (EV preferential) | ~$3,400 |
@@ -89,7 +89,7 @@ Same vehicle via China-Laos railway:
 
 | Cost line | USD |
 |---|---|
-| FOB Kunming | $8,350 |
+| EXW China | $8,350 |
 | China-Laos railway freight | $420 |
 | Laos CIF | $8,770 |
 | Import duty + excise + VAT | ~$3,150 |

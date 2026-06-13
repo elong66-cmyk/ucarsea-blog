@@ -1,6 +1,6 @@
 ---
 title: "Geely Geometry C Sourcing: The 600 km Mid-Tier EV That Fills the Atto 3 → Han Gap"
-description: "The Geometry C is the long-range answer for ASEAN buyers who need more than an Atto 3's city range but won't pay Han money. 600 km real-world capability changes the inter-province EV conversation. Full sourcing math, FOB cost, and the honest Geely service-network caveat for 2026."
+description: "The Geometry C is the long-range answer for ASEAN buyers who need more than an Atto 3's city range but won't pay Han money. 600 km real-world capability changes the inter-province EV conversation. Full sourcing math, EXW cost, and the honest Geely service-network caveat for 2026."
 pubDate: 2026-05-24
 draft: true
 category: Insights
@@ -71,7 +71,7 @@ Geely Geometry C — compact crossover EV, in production since 2020 (China), fac
 |---|---|
 | Dealer purchase (China, used) | $14,900 |
 | UCarsea margin + inspection + docs | $1,300 |
-| **FOB Shenzhen** | **$16,200** |
+| **EXW China** | **$16,200** |
 | Sea freight Shenzhen → Sihanoukville | $850 |
 | Cambodia CIF | $17,050 |
 | Import duty + special tax + VAT (EV preferential) | ~$5,950 |
@@ -84,7 +84,7 @@ Slots cleanly between Atto 3 (~$25K loaded) and Han (~$39K) — but with double 
 
 | Cost line | USD |
 |---|---|
-| FOB Shenzhen | $16,200 |
+| EXW China | $16,200 |
 | Sea freight → Hai Phong | $720 |
 | Vietnam CIF | $16,920 |
 | Import duty + EV-preferential SCT 3% + VAT | ~$6,400 |

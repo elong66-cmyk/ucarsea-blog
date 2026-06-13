@@ -92,7 +92,7 @@ Mid-size sedan, the workhorse of the Phnom Penh used-car market.
 
 | Line item | USD |
 |---|---|
-| FOB Shenzhen (UCarsea sourced) | 12,500 |
+| EXW China (UCarsea sourced) | 12,500 |
 | Ocean freight + insurance (CIF uplift) | 1,500 |
 | **CIF Sihanoukville** | **14,000** |
 | Customs duty 35% on CIF | 4,900 |
@@ -128,7 +128,7 @@ This is where 2026 changes the game.
 
 | Line item | USD |
 |---|---|
-| FOB Shenzhen (UCarsea sourced) | 17,500 |
+| EXW China (UCarsea sourced) | 17,500 |
 | Ocean freight + insurance | 1,500 |
 | **CIF Sihanoukville** | **19,000** |
 | Customs duty (reduced EV rate, ~15% assumed) | 2,850 |
