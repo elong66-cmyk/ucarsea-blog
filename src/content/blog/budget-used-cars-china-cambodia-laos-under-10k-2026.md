@@ -2,7 +2,7 @@
 title: "The Under-$10K Tier: Sourcing Budget Used Cars from China for Cambodia & Laos in 2026"
 description: "Most cross-border content chases the premium SUV and EV headlines. But the real volume in Cambodia and Laos sits in the budget tier — working buyers who need a reliable car landed under $10,000. Here is the honest sourcing playbook for that tier from China: which models clear the math, why freight is the hidden killer, how container consolidation rescues the economics, and the trims that actually move in a market where GDP per capita is a fifth of China's."
 pubDate: 2026-06-14
-draft: true
+draft: false
 category: Insights
 tags:
   - cambodia
