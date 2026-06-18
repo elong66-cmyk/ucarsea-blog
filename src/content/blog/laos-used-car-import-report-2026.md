@@ -2,7 +2,7 @@
 title: "The 2026 Laos Used Car Import Report: Volume, Sources, and the China Opening"
 description: "A data-grounded read on Laos's used-car import market in 2026 — where the volume comes from, why the 2025 removal of the age limit reset the game, how China-sourced LHD supply compares with the Japanese channel on landed cost, and what the numbers mean for an importing dealer deciding where to source. Built for dealers and trade buyers, not tourists."
 pubDate: 2026-06-18
-draft: true
+draft: false
 category: Laos
 tags:
   - laos
