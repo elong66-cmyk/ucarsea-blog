@@ -2,7 +2,7 @@
 title: "The 2026 Cambodia Used Car Import Report: Volume, Sources, and the China Opening"
 description: "A data-grounded read on Cambodia's used-car import market in 2026 — where the volume sits, why the absence of an age cap makes it one of Asia's deepest sourcing pools, how China-sourced LHD supply via Sihanoukville compares with the Japanese channel on landed cost, and what the numbers mean for a dealer deciding where to source. Built for importers and trade buyers, not tourists."
 pubDate: 2026-06-19
-draft: true
+draft: false
 category: Cambodia
 tags:
   - cambodia
