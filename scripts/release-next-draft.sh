@@ -33,6 +33,14 @@ fi
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG"; }
 
+# [2026-07-28] 弹药告警: 草稿<3篇推飞书, 根治静默饿死一个月没人知道
+ammo_check() {
+  left=$(grep -l '^draft: true' "$BLOG"/*.md 2>/dev/null | wc -l | tr -d ' ')
+  if [ "$left" -lt 3 ]; then
+    /Users/eric/.hermes/bin/feishu-send "⚠️ UCarsea博客草稿只剩 ${left} 篇, 请让Claude补稿 (release-next-draft)" >/dev/null 2>&1 || true
+  fi
+}
+
 # Find earliest-due draft. A file qualifies if it has `draft: true`
 # and `pubDate:` <= today. Emit "pubDate<TAB>path" then sort.
 candidate=""
@@ -51,6 +59,7 @@ done < <(find "$BLOG" -name '*.md' -type f)
 
 if [ -z "$candidate" ]; then
   log "no due draft (today=$TODAY) — no-op"
+  ammo_check
   exit 0
 fi
 
@@ -76,6 +85,7 @@ fi
 /usr/bin/git commit -m "post: release $slug (scheduled via launchd, pubDate $candidate_date)" >/dev/null 2>&1
 if /usr/bin/git push origin >/dev/null 2>&1; then
   log "RELEASED $slug (pubDate=$candidate_date) — pushed OK"
+  ammo_check
 else
   log "ERROR push failed for $slug — committed locally, will retry next run"
   exit 1
