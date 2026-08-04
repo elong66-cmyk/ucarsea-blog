@@ -2,7 +2,7 @@
 title: "Ethiopia Banned Petrol Car Imports. Here Is What That Means If You Source from China"
 description: "Ethiopia is the only country in the world that has banned petrol and diesel car imports outright. For importers that turns sourcing into a single question — where is the used-EV depth? This is the practical read on specs, battery health, charging reality and the China lane."
 pubDate: 2026-08-04
-draft: true
+draft: false
 category: Insights
 tags:
   - ethiopia
