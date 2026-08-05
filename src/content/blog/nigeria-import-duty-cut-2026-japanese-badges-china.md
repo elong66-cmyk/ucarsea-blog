@@ -2,7 +2,7 @@
 title: "Nigeria Cut Vehicle Import Duty from 70% to 40%. The Margin Moved — But Only for the Right Badges"
 description: "The July 2026 duty cut changes Nigerian landed-cost maths substantially. What it does not change is which cars actually resell in Lagos and Abuja. Here is the honest split between what the tariff allows and what the market absorbs."
 pubDate: 2026-08-05
-draft: true
+draft: false
 category: Insights
 tags:
   - nigeria
