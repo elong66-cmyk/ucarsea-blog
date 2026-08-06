@@ -2,7 +2,7 @@
 title: "Cambodia's Used-Car Share Is Falling. What That Means If You Stock from China"
 description: "Used cars dropped to about a third of Cambodian sales in early 2026 as buyers moved toward new. For importers that is not a retreat signal — it is a signal to change what you stock. The near-new band is where the two markets meet."
 pubDate: 2026-08-06
-draft: true
+draft: false
 category: Insights
 tags:
   - cambodia
