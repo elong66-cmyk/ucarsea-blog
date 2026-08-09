@@ -2,7 +2,7 @@
 title: "Iraq Dealer Guide 2026: Buying Direct from China Instead of Through Dubai"
 description: "Most used cars reaching Baghdad and Erbil pass through a Gulf re-export layer that adds margin without adding value. Here is the practical case for skipping it — what direct-from-China sourcing looks like, what actually moves in Iraq, and how the numbers change when one middleman disappears."
 pubDate: 2026-08-07
-draft: true
+draft: false
 category: Insights
 tags:
   - iraq
