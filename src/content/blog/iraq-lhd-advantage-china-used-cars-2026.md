@@ -2,7 +2,7 @@
 title: "Left-Hand Drive Is the Whole Game: Why China Fits Iraq in a Way Japan Never Could"
 description: "Iraq registers left-hand-drive cars, Japan sells right-hand-drive ones — which is why the world's biggest used-car pipeline skips Iraq entirely. China's used market is LHD from the factory and deeper than any re-export yard. A close look at what that means for Iraqi importers in 2026."
 pubDate: 2026-08-08
-draft: true
+draft: false
 category: Insights
 tags:
   - iraq
