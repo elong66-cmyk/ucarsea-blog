@@ -2,7 +2,7 @@
 title: "Ghana Importer Guide 2026: A Second Sourcing Lane Beyond the US Auction Pipeline"
 description: "Accra's used-car trade runs on North American auction cars — salvage history, rebuild costs and all. China's domestic used market offers a different trade-off: clean-history LHD cars, Japanese badges included, at domestic used prices. What Tema-bound importers should compare in 2026."
 pubDate: 2026-08-09
-draft: true
+draft: false
 category: Insights
 tags:
   - ghana
