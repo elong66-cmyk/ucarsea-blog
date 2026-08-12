@@ -2,7 +2,7 @@
 title: "Myanmar Dealers: The Margin Math on China-Sourced Used Cars in 2026"
 description: "Yangon and Mandalay dealers already know the Japan pipeline's limits — RHD supply, thin EV stock, tightening auction prices. China's LHD-adjacent left-hand-drive market offers different vehicles at different price bands. What the margin actually looks like for a Myanmar dealer running both lanes."
 pubDate: 2026-08-11
-draft: true
+draft: false
 category: Insights
 tags:
   - myanmar
