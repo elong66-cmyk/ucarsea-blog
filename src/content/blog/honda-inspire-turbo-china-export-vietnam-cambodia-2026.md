@@ -2,7 +2,7 @@
 title: "Honda INSPIRE 260TURBO from China: The Accord Sibling Vietnam and Cambodia Dealers Keep Missing"
 description: "China's Honda INSPIRE never got a Western badge, but it is the same platform as the Accord — and it lists 25-30% under Japan-spec benchmark. Here is why Southeast Asian importers should be sourcing it, and what one clean 2022 unit costs landed."
 pubDate: 2026-08-21
-draft: true
+draft: false
 category: Insights
 tags:
   - honda
