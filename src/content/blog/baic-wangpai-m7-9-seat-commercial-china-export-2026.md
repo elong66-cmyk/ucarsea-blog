@@ -2,7 +2,7 @@
 title: "BAIC Wangpai M7: The 9-Seat Commercial Van China Builds Cheaper Than Anyone Realizes"
 description: "The BAIC Wangpai M7 is a long-wheelbase, 9-seat commercial van built for fleet duty — shuttle routes, staff transport, tour operators. A near-new 2026 unit with 4,000 km clears EXW at roughly half its China domestic benchmark. Full sourcing guide for African and Middle Eastern fleet buyers."
 pubDate: 2026-08-24
-draft: true
+draft: false
 category: Insights
 tags:
   - baic
