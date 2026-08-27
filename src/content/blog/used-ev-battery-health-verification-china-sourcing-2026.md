@@ -2,7 +2,7 @@
 title: "The One Number That Decides Whether a Used Chinese EV Is a Bargain or a Liability"
 description: "Mileage and model year tell you almost nothing about a used electric car. Battery state of health tells you nearly everything. Here is what dealers should insist on seeing before a unit is booked — and what a report cannot tell you."
 pubDate: 2026-08-25
-draft: true
+draft: false
 category: Inspection
 tags:
   - ev
