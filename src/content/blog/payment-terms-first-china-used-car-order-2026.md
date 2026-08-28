@@ -2,7 +2,7 @@
 title: "How the Money Actually Moves on a First China Used-Car Order"
 description: "Most first-time buyers stall at the same place: the supplier wants a deposit and the dealer does not yet know whether the cars exist. Here is how payment is normally staged, what each stage should be tied to, and where the real risk sits."
 pubDate: 2026-08-26
-draft: true
+draft: false
 category: Logistics
 tags:
   - payment
