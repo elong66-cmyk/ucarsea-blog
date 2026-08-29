@@ -2,7 +2,7 @@
 title: "Stop Choosing the Car First. In Most Markets, Policy Has Already Chosen It for You"
 description: "Dealers ask us what sells. The more useful question is what their own import rules will let through at a workable landed cost. Across the markets we serve, policy narrows the field to one lane long before buyer preference gets a say."
 pubDate: 2026-08-27
-draft: true
+draft: false
 category: Insights
 tags:
   - policy
