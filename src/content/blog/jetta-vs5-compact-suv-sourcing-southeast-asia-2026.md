@@ -2,7 +2,7 @@
 title: "Jetta VS5 Sourcing: The Compact SUV Southeast Asia Dealers Underprice"
 description: "The Jetta VS5 1.4TSI is a low-mileage compact SUV clearing China at a ~30% discount to comparable market pricing. EXW cost, landed math for Cambodia/Laos/Vietnam/Central Asia, and why n=43 makes this a defensible margin play, not a one-off deal."
 pubDate: 2026-09-12
-draft: true
+draft: false
 category: Insights
 tags:
   - jetta-vs5
