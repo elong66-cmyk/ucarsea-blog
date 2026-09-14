@@ -2,7 +2,7 @@
 title: "Limited-Styling Electric Motorcycles: A Different Margin Play Than Volume SKUs"
 description: "The Hornet Gold and other limited-styling HIMOTO models sell on differentiation, not price. Why style-forward electric motorcycles carry a different dealer margin logic than volume commuter SKUs, and where they fit in a mixed-order strategy."
 pubDate: 2026-09-14
-draft: true
+draft: false
 category: Insights
 tags:
   - electric-motorcycle
