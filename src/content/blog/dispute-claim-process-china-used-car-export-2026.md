@@ -2,7 +2,7 @@
 title: "What Happens If a Unit Doesn't Match the Inspection Report"
 description: "The question every first-time dealer asks but few suppliers answer clearly: what's the actual claim process if a container arrives and something doesn't match what was quoted. Here's how it should work, and the questions to ask before you wire a deposit."
 pubDate: 2026-09-15
-draft: true
+draft: false
 category: Logistics
 tags:
   - dispute-process
