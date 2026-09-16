@@ -2,7 +2,7 @@
 title: "Toyota Levin: The Corolla Twin African Dealers Keep Overlooking"
 description: "The Levin is the Corolla's China-market twin on the same platform. A 2024 Levin 185T with 35,000 km clears China at $12,381 against a $26,345 comparable benchmark. What it is, what it is not, and the two checks before you order for Nigeria, Ghana or Kenya."
 pubDate: 2026-09-16
-draft: true
+draft: false
 category: Insights
 tags:
   - toyota-levin
