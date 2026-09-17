@@ -2,7 +2,7 @@
 title: "Reading the Battery Line: State of Health on a Used EV Inspection Report"
 description: "On a used EV the odometer is not the number that matters. How to read the state-of-health line, what a fleet car looks like on the report, and the three conditions to write into your next EV order."
 pubDate: 2026-09-17
-draft: true
+draft: false
 category: Insights
 tags:
   - used-ev
