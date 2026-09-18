@@ -2,7 +2,7 @@
 title: "What Is Inside a DDP E-Moto Price: Cambodia, Laos and the UAE"
 description: "A door-to-door electric motorcycle price bundles factory price, freight, duty and clearance into one number. Why the same Freego X-MAN X3 lands at $2,369 in Cambodia and $2,609 in the UAE, and how a dealer should compare DDP against an EXW quote."
 pubDate: 2026-09-18
-draft: true
+draft: false
 category: Insights
 tags:
   - electric-motorcycle
