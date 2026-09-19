@@ -2,7 +2,7 @@
 title: "Why Five Units Is the Right First E-Moto Order"
 description: "New electric motorcycle dealers either buy one bike to test or forty to get a price. Both are the wrong number. Why a mixed order of five unlocks dealer pricing, covers the floor, and tells you what to reorder by the container."
 pubDate: 2026-09-19
-draft: true
+draft: false
 category: Insights
 tags:
   - electric-motorcycle
