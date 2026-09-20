@@ -2,7 +2,7 @@
 title: "Subic and the Re-Export Lane: Where Chinese Used Cars Fit for Philippine Dealers"
 description: "The Philippines restricts direct used-car imports, but the Subic freeport re-export lane and the growing EV exemption change the picture. What a Manila or Subic dealer can and cannot source from China in 2026, and the three checks before quoting."
 pubDate: 2026-09-20
-draft: true
+draft: false
 category: Insights
 tags:
   - philippines
