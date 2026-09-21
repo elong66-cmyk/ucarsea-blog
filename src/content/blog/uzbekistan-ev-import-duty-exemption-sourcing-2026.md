@@ -2,7 +2,7 @@
 title: "Uzbekistan: When the Duty Schedule Picks the Powertrain for You"
 description: "Uzbekistan taxes petrol imports at a rate that makes electric the only sensible lane. What a Tashkent dealer should source from China in 2026, how the landed math works, and the three checks before quoting."
 pubDate: 2026-09-21
-draft: true
+draft: false
 category: Insights
 tags:
   - uzbekistan
