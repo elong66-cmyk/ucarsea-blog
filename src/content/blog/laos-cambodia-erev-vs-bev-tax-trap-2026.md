@@ -2,7 +2,7 @@
 title: "The EREV Tax Trap: Why 'It's Electric' Doesn't Mean Tax-Exempt in Laos or Cambodia"
 description: "Range-extended EVs like the Li Auto L9 run on a battery and a motor — but they also carry a gasoline engine, and that one fact can knock them out of the pure-EV tax breaks Laos and Cambodia offer. What separates a BEV from an EREV at customs, which one actually qualifies for the exemption in each market, and how to quote correctly so the landed price doesn't blow up after clearance."
 pubDate: 2026-09-22
-draft: true
+draft: false
 category: Insights
 tags:
   - laos
