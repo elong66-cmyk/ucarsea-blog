@@ -2,7 +2,7 @@
 title: "Kazakhstan and Uzbekistan Want Opposite Cars. Here Is Why."
 description: "Two Central Asian neighbours, two opposite shortlists. Kazakhstan's petrol market still clears Japanese and German units; Uzbekistan's duty schedule makes electric the only lane. How we split one stock list into two for Almaty and Tashkent dealers."
 pubDate: 2026-09-23
-draft: true
+draft: false
 category: Insights
 tags:
   - kazakhstan
