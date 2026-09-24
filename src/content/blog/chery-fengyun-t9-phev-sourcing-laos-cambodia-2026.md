@@ -2,7 +2,7 @@
 title: "Chery Fengyun T9 PHEV Sourcing: The Family SUV Margin Play for Laos and Cambodia"
 description: "The Chery Fengyun T9 is a 2025-model plug-in hybrid SUV clearing China's domestic used market at a steep discount to benchmark. Full EXW cost breakdown, landed pricing for Laos and Cambodia, and why LFP-battery PHEVs are the safer margin bet than pure EVs right now."
 pubDate: 2026-09-24
-draft: true
+draft: false
 category: Insights
 tags:
   - chery
