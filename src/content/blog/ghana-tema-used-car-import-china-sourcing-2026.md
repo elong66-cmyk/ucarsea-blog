@@ -2,7 +2,7 @@
 title: "Ghana Through Tema: What a Chinese Used-Car Exporter Can and Cannot Ship"
 description: "Ghana's age-based duty penalties, the over-10-year rule, and why 2018 to 2023 Japanese and Korean units from China clear Tema at a price Accra dealers can sell. What we shortlist for Ghana, and the three checks before quoting."
 pubDate: 2026-09-25
-draft: true
+draft: false
 category: Insights
 tags:
   - ghana
