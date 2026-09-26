@@ -2,7 +2,7 @@
 title: "Price the Kilometre, Not the Car: A Fleet Buyer's Guide to Cheap Used SUVs"
 description: "A $6,544 Roewe RX5 against a $5,000 ten-year-old Japanese unit. Why the cheaper invoice is usually the more expensive car for a taxi or ride-hailing fleet, and the three numbers to ask for before ordering in fives."
 pubDate: 2026-09-26
-draft: true
+draft: false
 category: Insights
 tags:
   - fleet
