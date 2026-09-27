@@ -2,7 +2,7 @@
 title: "BMW iX3 from China: The Premium EV Badge Most ASEAN Dealers Haven't Priced Yet"
 description: "A 2024 iX3 (imported spec), 40,000 km, at $26,737 EXW against a $44,684 benchmark (n=30) — a 40% spread on a badge most dealer lots in the region don't stock yet."
 pubDate: 2026-09-27
-draft: true
+draft: false
 category: Insights
 tags:
   - bmw
