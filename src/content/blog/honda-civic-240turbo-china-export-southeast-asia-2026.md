@@ -2,7 +2,7 @@
 title: "Honda Civic 240TURBO from China: A 19% Gap on the World's Most Recognized Compact"
 description: "The Civic does not need an introduction in any market. What dealers in Laos and Cambodia are missing is that China's domestic-spec 240TURBO trim runs meaningfully under Japan-benchmark export pricing for the same generation. Here is one clean 2022 unit, priced and landed."
 pubDate: 2026-09-28
-draft: true
+draft: false
 category: Insights
 tags:
   - honda
