@@ -2,7 +2,7 @@
 title: "Tesla Model Y from China: The Margin Case Dealers Keep Underpricing"
 description: "A 2022 Model Y RWD (facelift), 60,000 km, at $26,433 EXW against a $36,771 Japan-market benchmark (n=22). Why China-market Tesla resupply beats the Japan auction route on price, and what to check before you order one."
 pubDate: 2026-09-29
-draft: true
+draft: false
 category: Insights
 tags:
   - tesla
