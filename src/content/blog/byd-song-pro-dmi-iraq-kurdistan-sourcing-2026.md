@@ -2,7 +2,7 @@
 title: "BYD Song Pro DM-i from China: A Plug-In Hybrid That Skips Iraq's Charging Problem"
 description: "A 2025 Song Pro DM-i 75KM (2,000 km), priced at $13,484 EXW against a $17,501 benchmark (n=108) — a 23% gap. Why a plug-in hybrid, not a full EV, is the more realistic China-to-Iraq/Kurdistan play right now, and what to check before ordering."
 pubDate: 2026-09-30
-draft: true
+draft: false
 category: Insights
 tags:
   - byd
