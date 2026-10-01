@@ -2,7 +2,7 @@
 title: "2019 Toyota Prado TX-L from China: $29,174 EXW and Why Iraq and East Africa Keep Asking for It"
 description: "A 2019 Prado TX-L with 64,000 km, priced at $29,174 EXW out of China against a $27,142 benchmark. Why this unit is priced above reference, when that is still the right buy for a dealer in Erbil, Nairobi or Addis, and the four checks to run before you wire a deposit."
 pubDate: 2026-10-01
-draft: true
+draft: false
 category: Insights
 tags:
   - toyota
