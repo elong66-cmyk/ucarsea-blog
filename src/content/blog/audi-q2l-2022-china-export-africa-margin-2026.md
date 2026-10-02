@@ -2,7 +2,7 @@
 title: "2022 Audi Q2L from China: $21,222 EXW and the 38% Gap Nobody Quotes You"
 description: "A 2022 Audi Q2L 35TFSI with 35,000 km, priced at $21,222 EXW against a $34,219 benchmark — a 38% spread. Why premium-badge compacts move faster than mainstream SUVs in African markets, and the four checks before you wire a deposit."
 pubDate: 2026-10-02
-draft: true
+draft: false
 category: Insights
 tags:
   - audi
