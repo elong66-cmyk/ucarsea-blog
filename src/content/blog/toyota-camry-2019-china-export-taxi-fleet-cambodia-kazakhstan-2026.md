@@ -2,7 +2,7 @@
 title: "2019 Toyota Camry 2.0S at $14,511 EXW: The Fleet Sedan Dealers in Phnom Penh and Almaty Keep Reordering"
 description: "A 2019 Camry 2.0S with 100,000 km, priced at $14,511 EXW out of China against a $15,678 benchmark. Why a six-figure-kilometre Camry is still the safest fleet buy, what 100,000 km actually means on this engine, and the three checks that separate a taxi-grade unit from a tired one."
 pubDate: 2026-10-03
-draft: true
+draft: false
 category: Insights
 tags:
   - toyota
