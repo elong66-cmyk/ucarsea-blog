@@ -2,7 +2,7 @@
 title: "2025 Li Auto L9 Ultra at $57,198 EXW: The Six-Seat Range-Extender That Needs No Charger"
 description: "A 2025 Li Auto L9 Ultra with 6,600 km, priced at $57,198 EXW out of China against a $50,436 benchmark. Why a range-extender flagship is priced above reference, which markets pay for it, and the four checks a dealer should run before wiring a deposit on a near-new unit."
 pubDate: 2026-10-04
-draft: true
+draft: false
 category: Insights
 tags:
   - li-auto
