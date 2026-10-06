@@ -2,20 +2,34 @@
 interface Props {
   title?: string;
   description?: string;
+  articleSlug?: string;
 }
 const {
   title = "Ready to source from China?",
-  description = "UCarsea handles sourcing, inspection, and cross-border logistics end to end. We work with established Laos/Cambodia importers buying 5+ vehicles per month.",
+  description = "Tell us your destination country, target model, quantity and budget. We can check available vehicles and discuss sourcing, inspection and export requirements for your route.",
+  articleSlug = "article",
 } = Astro.props;
+function trackedLink(path: string) {
+  const url = new URL(path, "https://ucarsea.com");
+  url.searchParams.set("utm_source", "ucarsea_blog");
+  url.searchParams.set("utm_medium", "referral");
+  url.searchParams.set("utm_campaign", "article_cta");
+  url.searchParams.set("utm_content", articleSlug);
+  return url.toString();
+}
 ---
 
 <aside class="uc-article-cta">
   <h3>{title}</h3>
   <p>{description}</p>
   <div class="uc-btn-row">
-    <a href="https://ucarsea.com/?post_type=vehicle" class="uc-btn uc-btn-primary"
+    <a href={`${trackedLink("/contact/")}#inquiry`} class="uc-btn uc-btn-primary"
+      data-uc-blog-cta="quote">Request a sourcing quote →</a>
+    <a href={trackedLink("/inventory/")} class="uc-btn uc-btn-ghost"
+      data-uc-blog-cta="inventory"
       >Browse inventory →</a
     >
-    <a href="https://t.me/ucarsea" class="uc-btn uc-btn-ghost" rel="noopener">Telegram @ucarsea</a>
+    <a href="https://t.me/ucarsea" class="uc-btn uc-btn-ghost" rel="noopener"
+      data-uc-blog-cta="telegram">Follow inventory on Telegram</a>
   </div>
 </aside>

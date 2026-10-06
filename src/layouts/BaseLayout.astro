@@ -103,6 +103,20 @@ const fullOgImage = new URL(ogImage, Astro.site).toString();
     </main>
     <Footer />
 
+    <script is:inline>
+      // Click intent only, not an inquiry or order. Do not send contact URLs/PII.
+      document.addEventListener("click", function (event) {
+        var target = event.target;
+        var link = target && target.closest ? target.closest("a[data-uc-blog-cta]") : null;
+        if (!link || typeof window.gtag !== "function") return;
+        window.gtag("event", "blog_cta_click", {
+          cta_type: link.getAttribute("data-uc-blog-cta"),
+          page_path: location.pathname,
+          event_category: "interaction"
+        });
+      });
+    </script>
+
     <script>
       // Reveal-on-scroll
       const obs = new IntersectionObserver(
