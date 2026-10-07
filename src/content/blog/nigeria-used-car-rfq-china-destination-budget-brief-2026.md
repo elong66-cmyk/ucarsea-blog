@@ -2,7 +2,7 @@
 title: "Nigeria Used-Car RFQ: Turn a China Price Listing into a Quote-Ready Buyer Brief"
 description: "A practical RFQ template for Nigerian dealers comparing China-sourced used vehicles: destination, quantity, budget basis and the evidence needed before a quotation."
 pubDate: 2026-10-07
-draft: true
+draft: false
 category: Insights
 tags: [nigeria, dealer-guide, sourcing-strategy, rfq]
 keywords: [Nigeria China used car quote, used car dealer RFQ Nigeria, China used car landed quote]
