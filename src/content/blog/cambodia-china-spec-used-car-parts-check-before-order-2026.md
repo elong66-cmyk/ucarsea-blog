@@ -2,7 +2,7 @@
 title: "Cambodia Dealer Checklist: Verify China-Spec Vehicle Parts Before You Order"
 description: "A pre-order parts and specification checklist for Cambodian dealers reviewing China-sourced used vehicles, with a simple worksheet to share with a local workshop."
 pubDate: 2026-10-08
-draft: true
+draft: false
 category: Insights
 tags: [cambodia, dealer-guide, after-sales, inspection]
 keywords: [China spec used car parts Cambodia, Cambodia used car dealer checklist, China used car after sales]
