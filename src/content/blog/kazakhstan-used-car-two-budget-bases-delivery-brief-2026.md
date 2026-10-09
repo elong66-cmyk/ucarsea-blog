@@ -2,7 +2,7 @@
 title: "Kazakhstan Used-Car Sourcing: Separate Vehicle Budget from Delivery Budget"
 description: "A dealer brief for Kazakhstan-bound China used-car enquiries: cost basis, final city, route scope, specification and a written list of unresolved quotation items."
 pubDate: 2026-10-09
-draft: true
+draft: false
 category: Insights
 tags: [kazakhstan, dealer-guide, pricing, rfq]
 keywords: [Kazakhstan China used car quote, China used car delivery Kazakhstan, Kazakhstan used car dealer budget]
