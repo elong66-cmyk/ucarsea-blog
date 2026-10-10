@@ -2,7 +2,7 @@
 title: "Kazakhstan Buyers: Check Model Year, Registration Date and Inspection Stage Separately"
 description: "A China used-car sourcing checklist for Kazakhstan dealers: model year versus first registration, mileage evidence, deposit-stage inspection and a dated stock reconfirmation."
 pubDate: 2026-10-10
-draft: true
+draft: false
 category: Insights
 tags: [kazakhstan, dealer-guide, sourcing-strategy, inspection]
 keywords: [China used car model year first registration, Kazakhstan used car inspection, China used car sourcing checklist]
