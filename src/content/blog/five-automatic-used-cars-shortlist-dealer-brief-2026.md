@@ -2,7 +2,7 @@
 title: "Buying Five Automatic Used Cars: Build the Shortlist Before Discussing a Container"
 description: "A five-car sourcing worksheet for dealers: automatic-only filters, model alternatives, evidence gaps and separate packing and delivery checks."
 pubDate: 2026-10-21
-draft: true
+draft: false
 releaseApproved: true
 reviewStatus: ready
 reviewedOn: 2026-10-21
