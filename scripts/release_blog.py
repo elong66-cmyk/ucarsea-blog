@@ -10,10 +10,10 @@ import os
 import re
 import subprocess
 import tempfile
-import urllib.error
-import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
+import requests
+from bs4 import BeautifulSoup
 
 TZ = ZoneInfo('Asia/Shanghai')
 DEFAULT_REPO = Path('/Volumes/Workspace/projects/ucarsea-blog')
@@ -63,12 +63,14 @@ def health(repo: Path, today: str, state: dict | None = None) -> dict:
     current = (state if state is not None else load_state(repo)).get('current') or {}
     last = max((row['pubDate'] for row in items if not row['draft'] and row['pubDate']), default=None)
     findings = []
-    if len(drafts) < 3:
+    if len(drafts) <= 3:
         findings.append({'severity': 'P0' if not drafts else 'P1', 'code': 'DRAFT_BUFFER_LOW', 'actual': len(drafts), 'minimum': 3, 'refill_target': 7})
     if last is None or (dt.date.fromisoformat(today) - dt.date.fromisoformat(last)).days > 1:
         findings.append({'severity': 'P0', 'code': 'PUBLICATION_GAP', 'last_source_pubDate': last})
     if current.get('phase') in {'push_unknown', 'push_failed', 'commit_failed', 'commit_intent', 'flip_intent'}:
         findings.append({'severity': 'P0', 'code': 'PENDING_RELEASE', 'phase': current['phase'], 'slug': current.get('slug')})
+    if current.get('phase') in {'pushed', 'pushed_public_pending'}:
+        findings.append({'severity': 'P0', 'code': 'PUBLIC_READBACK_PENDING', 'phase': current['phase'], 'slug': current.get('slug')})
     ready = [row for row in drafts if row['reviewStatus'] == 'ready' and row['reviewedOn']]
     if len(ready) < len(drafts):
         findings.append({'severity': 'P1', 'code': 'UNREVIEWED_DRAFTS', 'count': len(drafts)-len(ready)})
@@ -91,15 +93,19 @@ def run_cmd(repo: Path, args: list[str], timeout: int = 120) -> str:
 
 def verify_live(slug: str, title: str) -> dict:
     url = 'https://blog.ucarsea.com/' + slug + '/'
-    result = {'url': url, 'verified_at': dt.datetime.now(TZ).isoformat()}
+    result = {'url': url, 'verified_at': dt.datetime.now(TZ).isoformat(),
+              'method': 'public GET via requests, no proxy environment or credentials'}
     try:
-        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
-        with opener.open(url, timeout=20) as response:
-            text = html.unescape(response.read().decode('utf-8', errors='replace'))
-            result.update(http=response.status, expected_title_present=title in text)
-            result['public_verified'] = response.status == 200 and title in text
-    except urllib.error.HTTPError as exc:
-        result.update(http=exc.code, public_verified=False)
+        with requests.Session() as session:
+            session.trust_env = False
+            response = session.get(url, timeout=(5, 20))
+        soup = BeautifulSoup(response.text, 'html.parser')
+        canonical = soup.select_one('link[rel="canonical"]')
+        expected_h1 = any(h.get_text(' ', strip=True) == title for h in soup.select('h1'))
+        canonical_url = canonical.get('href') if canonical else None
+        result.update(http=response.status_code, expected_title_present=expected_h1,
+                      canonical=canonical_url)
+        result['public_verified'] = response.status_code == 200 and expected_h1 and canonical_url == url
     except Exception as exc:
         result.update(error_type=type(exc).__name__, public_verified=False)
     return result

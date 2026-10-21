@@ -110,6 +110,32 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(result['ready_draft_count'], 0)
         self.assertIn('UNREVIEWED_DRAFTS', [row['code'] for row in result['findings']])
 
+    def test_three_remaining_drafts_trigger_refill(self):
+        for n in range(3): self.post(str(n))
+        result = mod.health(self.repo, '2026-10-21')
+        self.assertIn('DRAFT_BUFFER_LOW', [row['code'] for row in result['findings']])
+
+    def test_unverified_deployment_is_not_healthy(self):
+        result = mod.health(self.repo, '2026-10-21', {'current': {
+            'phase': 'pushed_public_pending', 'slug': 'sample'}})
+        self.assertIn('PUBLIC_READBACK_PENDING', [row['code'] for row in result['findings']])
+
+    def test_http200_homepage_title_is_not_article_acceptance(self):
+        with patch.object(mod.requests, 'Session') as Session:
+            response = Session.return_value.__enter__.return_value.get.return_value
+            response.status_code = 200
+            response.text = '<h1>Other article</h1><div>Sample</div><link rel="canonical" href="https://blog.ucarsea.com/">'
+            self.assertFalse(mod.verify_live('sample', 'Sample')['public_verified'])
+
+    def test_public_acceptance_requires_h1_and_exact_canonical(self):
+        with patch.object(mod.requests, 'Session') as Session:
+            response = Session.return_value.__enter__.return_value.get.return_value
+            response.status_code = 200
+            response.text = '<h1>Sample</h1><link rel="canonical" href="https://blog.ucarsea.com/sample/">'
+            self.assertTrue(mod.verify_live('sample', 'Sample')['public_verified'])
+            response.status_code = 403
+            self.assertFalse(mod.verify_live('sample', 'Sample')['public_verified'])
+
     def test_build_failure_restores_only_own_edit(self):
         path = self.post(date='2026-10-20')
         before = path.read_text()
