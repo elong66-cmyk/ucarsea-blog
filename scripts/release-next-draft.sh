@@ -1,92 +1,11 @@
 #!/bin/bash
-# release-next-draft.sh — flip the earliest due draft:true post to live, push.
-# Runs daily via launchd. One release per run max. Idempotent & safe:
-#   - Only touches posts with draft:true AND pubDate <= today
-#   - Releases the single earliest-pubDate due draft, then exits
-#   - No-op (exit 0) if nothing is due
-# Log: scripts/release-log.txt
+# One reviewed post per Beijing day. Never treats a no-op log as publication.
 set -euo pipefail
-
-# launchd runs with a minimal PATH — add Homebrew + system bins
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
 REPO="/Volumes/Workspace/projects/ucarsea-blog"
-BLOG="$REPO/src/content/blog"
-LOG="$REPO/scripts/release-log.txt"
-TODAY="$(date +%Y-%m-%d)"
-
-# Guard: the repo lives on an external volume (/Volumes/Workspace) that may not
-# be mounted yet when launchd fires on login/wake. Exit cleanly (NOT an error)
-# so launchd does not flag the job as failed (was exit-code 78). The next
-# wake/calendar fire retries once the volume is mounted.
-if [ ! -d "$BLOG" ]; then
-  exit 0
+PYTHON="/Volumes/Workspace/projects/ucarsea-leads/.venv/bin/python"
+if [ ! -d "$REPO/src/content/blog" ]; then
+  echo '{"status":"repository_unavailable","published":false}'
+  exit 75
 fi
-
-cd "$REPO" || exit 0
-
-# Catch-up dedup: RunAtLoad fires on every login/wake. Skip if we already
-# released (or no-op'd) today, so a wake doesn't double-publish.
-if [ -f "$LOG" ] && grep -q "^\[$TODAY " "$LOG"; then
-  exit 0
-fi
-
-log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG"; }
-
-# [2026-07-28] 弹药告警: 草稿<3篇推飞书, 根治静默饿死一个月没人知道
-ammo_check() {
-  left=$(grep -l '^draft: true' "$BLOG"/*.md 2>/dev/null | wc -l | tr -d ' ')
-  if [ "$left" -lt 3 ]; then
-    /Users/eric/.hermes/bin/feishu-send "⚠️ UCarsea博客草稿只剩 ${left} 篇, 请让Claude补稿 (release-next-draft)" >/dev/null 2>&1 || true
-  fi
-}
-
-# Find earliest-due draft. A file qualifies if it has `draft: true`
-# and `pubDate:` <= today. Emit "pubDate<TAB>path" then sort.
-candidate=""
-candidate_date=""
-while IFS= read -r f; do
-  grep -q '^draft: true' "$f" || continue
-  pd="$(grep -m1 '^pubDate:' "$f" | sed -E 's/pubDate:[[:space:]]*//; s/[[:space:]].*//')"
-  [ -z "$pd" ] && continue
-  # pubDate <= today ? (string compare works for YYYY-MM-DD)
-  if [[ "$pd" > "$TODAY" ]]; then continue; fi
-  if [ -z "$candidate_date" ] || [[ "$pd" < "$candidate_date" ]]; then
-    candidate="$f"
-    candidate_date="$pd"
-  fi
-done < <(find "$BLOG" -name '*.md' -type f)
-
-if [ -z "$candidate" ]; then
-  log "no due draft (today=$TODAY) — no-op"
-  ammo_check
-  exit 0
-fi
-
-slug="$(basename "$candidate" .md)"
-
-# Flip draft: true -> draft: false (in-place, macOS sed)
-/usr/bin/sed -i '' 's/^draft: true$/draft: false/' "$candidate"
-
-# Sanity: ensure flip happened
-if grep -q '^draft: true' "$candidate"; then
-  log "ERROR flip failed for $slug — aborting"
-  exit 1
-fi
-
-# Build to catch any error before pushing
-if ! npm run build >/dev/null 2>&1; then
-  log "ERROR build failed after flipping $slug — reverting"
-  /usr/bin/git checkout -- "$candidate"
-  exit 1
-fi
-
-/usr/bin/git add "$candidate"
-/usr/bin/git commit -m "post: release $slug (scheduled via launchd, pubDate $candidate_date)" >/dev/null 2>&1
-if /usr/bin/git push origin >/dev/null 2>&1; then
-  log "RELEASED $slug (pubDate=$candidate_date) — pushed OK"
-  ammo_check
-else
-  log "ERROR push failed for $slug — committed locally, will retry next run"
-  exit 1
-fi
+exec "$PYTHON" "$REPO/scripts/release_blog.py" --publish

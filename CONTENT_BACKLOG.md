@@ -1,100 +1,42 @@
-# UCarsea Content Backlog
+# UCarsea Blog: current release queue
 
-Last updated: 2026-05-16 by ECC session.
+Updated 2026-10-21. Previous backlog is preserved in Git history and the dated repair backup. It was last maintained in May and did not describe the October queue.
 
-## 已上线 (15 篇)
+## Restart queue
 
-| Series | Slug | Pub Date | Status |
-|--------|------|----------|--------|
-| basics #1 | laos-used-car-import-policy-2025 | 2026-05-09 | ✅ live |
-| basics #2 | total-cost-camry-china-to-laos | 2026-05-09 | ✅ live |
-| basics #3 | china-to-laos-car-shipping-kunming | 2026-05-09 | ✅ live |
-| basics #4 | cambodia-used-car-import-duty-2026 | 2026-05-11 | ✅ live |
-| basics #5 | chinese-evs-flooding-southeast-asia-2026 | 2026-05-11 | ✅ live |
-| A1 | china-vs-japan-used-cars-cambodia-2026 | 2026-05-12 | ✅ live |
-| A2 | china-vs-japan-ev-supply-asean-2026 | 2026-05-13 | ✅ live |
-| A3 | china-vs-japan-laos-importers-look-north | 2026-05-14 | ✅ live |
-| A4 | rhd-vs-lhd-asean-importers-2026 | 2026-05-15 | ✅ live (today) |
-| A5 | china-vs-japan-vietnam-used-car-decoded-2026 | 2026-05-16 | ⏰ scheduled 16:42 today |
-| A6 | parts-service-japan-vs-china-after-5-years-sea-2026 | 2026-05-17 | ✅ live (today) |
-| AH | china-vs-japan-used-cars-asean-decision-framework-2026 | 2026-05-18 | ✅ live (today, hub) |
-| B1 | byd-atto-3-asean-dealer-sourcing-guide-2026 | 2026-05-19 | ✅ live (today) |
-| B2 | toyota-camry-china-lhd-sourcing-asean-2026 | 2026-05-20 | ✅ live (today) |
+These are reviewed preparation/schedule states, not proof of publication. Consult `scripts/release-state.json`, `scripts/release-health.json` and the public URL for the actual result.
 
-## Series B Remaining (4 篇) — 排期 1 篇/天
+| Intended date (Beijing) | Slug | Review / initial state |
+|---|---|---|
+| 2026-10-21 | five-automatic-used-cars-shortlist-dealer-brief-2026 | ready / draft |
+| 2026-10-22 | used-car-quote-validity-versus-stock-reservation-2026 | ready / draft |
+| 2026-10-23 | used-car-document-request-redacted-review-2026 | ready / draft |
+| 2026-10-24 | substitute-used-car-buyer-approval-checklist-2026 | ready / draft |
 
-| # | Slug | Target Pub Date | Primary Keyword | Status |
-|---|------|-----------------|-----------------|--------|
-| B3 | byd-han-asean-executive-sedan-2026 | 2026-05-21 | byd han cambodia / byd han vietnam | TODO |
-| B4 | wuling-bingo-entry-ev-sourcing-asean-2026 | 2026-05-22 | wuling bingo cambodia / wuling air ev asean | TODO |
-| B5 | toyota-land-cruiser-premium-suv-sourcing-2026 | 2026-05-23 | toyota land cruiser cambodia / land cruiser laos import | TODO |
-| B6 | geely-geometry-c-mid-tier-ev-asean-2026 | 2026-05-24 | geely geometry c cambodia / geometry c laos import | TODO |
+## Operating standard
 
-### B3 BYD Han outline (premium Chinese sedan)
-- TL;DR: alternative to Lexus ES / Audi A4L for executive buyers in Hanoi/Phnom Penh.
-- Specs table: 2021-2023 BYD Han DM-i and Han EV variants
-- Landed math: Phnom Penh + Hanoi
-- Resale data: 55-65% retention at year 5
-- Customer profile: tech-aware executive, govt district buyers
-- Service depth: BYD authorized centers, warranty caveats
-- vs Camry, vs Lexus ES, vs Audi A4L positioning
+- Existing daily release remains 10:00 Asia/Shanghai; at most one article per Beijing day. This is our editorial capacity, not a Google rule or ranking guarantee.
+- Daily 08:10 SOP checks previous publication, current ready-draft count and errors. Refill a reviewed rolling queue toward seven when it reaches three or fewer; do not fill it with duplicate, unverified or obsolete articles.
+- Weekly operational/SEO/GEO review checks actual public receipts and seven-day gaps, not scheduler configuration alone.
+- Drafts require `reviewStatus: ready`, `reviewedOn: YYYY-MM-DD` and an applicable confirmed publication authorization recorded as `releaseApproved: true`. A ready review alone cannot publish unapproved content; this restart batch remains gated until Eric confirms it. Review stock, policy or pricing assertions against current evidence; remove unsupported claims rather than invent figures.
+- Content should solve a distinct buyer question. There is no Google-required minimum word count. Useful examples, explicit uncertainty, a dated review and an appropriate inquiry route matter more than article length.
+- No automatic claims of current inventory, fixed freight/duty rates, DDP, guaranteed admission, independent inspection, customer orders or earnings without applicable evidence and approval.
+- New content uses current sourcing priorities: Cambodia, Kazakhstan and Nigeria; existing relevant markets remain. Moto material stays separate and requires its own product/use/brand evidence.
+- Preserve previous articles and dates; do not bulk backfill missed days. Missed scheduled draft dates are changed to the actual release day when released, with the original intended date retained in the local journal.
+- Local build, Git push, hosting deployment, public HTTP200, search indexing and AI citations are separate states. A scheduler exit code or crawler visit proves neither publication nor acquisition.
 
-### B4 Wuling Bingo outline (entry EV)
-- TL;DR: cheapest viable LHD EV import for tier-2 city resellers
-- Specs: 2022-2024 Bingo 333km / 410km variants
-- Landed math: ultra-low at $9-12K landed Phnom Penh
-- Resale: thin margin but volume play
-- Customer: ride-share, fleet, first-EV buyers
-- Caution: smaller cell pack = battery degradation risk
-- vs BYD Dolphin positioning
+## Safe release commands
 
-### B5 Toyota Land Cruiser outline (premium SUV)
-- TL;DR: high-margin but low-volume premium 4WD trade
-- Specs: 2018-2021 LC 200, 2022+ LC 300 LHD from China
-- Landed math: $60-90K landed Cambodia, $55-80K Laos
-- Resale: Toyota premium + provincial demand
-- Customer: business owners, NGO buyers, government adjacent
-- vs Lexus LX, vs Mercedes G-Class positioning
-- Caution: high duty stack, careful with engine displacement tier
+Read-only current queue/health:
 
-### B6 Geely Geometry C outline (mid-tier EV)
-- TL;DR: 600km range fills the gap between Atto 3 and Han
-- Specs: 2022-2023 Geometry C standard and long-range variants
-- Landed math
-- Customer: long-distance commuters, inter-province drivers
-- Service: Geely network coverage less mature than BYD
-- vs BYD Atto 3 positioning
+```sh
+/Volumes/Workspace/projects/ucarsea-leads/.venv/bin/python scripts/release_blog.py --check
+```
 
-## Future Series (not yet committed)
+Existing authorized daily publication:
 
-### Series C — Logistics Routes (when Eric green-lights)
-- C1: Shenzhen → Sihanoukville sea freight breakdown
-- C3: Shanghai → Hai Phong Vietnam port logistics
-- C4: Guangzhou → Yangon Myanmar route
-- C5: Chongqing → Mandalay land bridge
-- C6: Shenzhen → Phnom Penh ICD inland depot path
+```sh
+bash scripts/release-next-draft.sh
+```
 
-### Series D — EV Deep-Dives
-- D1: How to verify used Chinese EV battery SoH before buying
-- D2: ASEAN EV charging compatibility (Type 2 vs GB/T)
-
-## Transactional Pages (WP main site)
-
-| Path | Status |
-|------|--------|
-| /used-cars-cambodia/ | ✅ live (2026-05-16) |
-| /used-cars-laos/ | ✅ live (2026-05-16) |
-| /used-cars-vietnam/ | ✅ live (2026-05-16) |
-| /used-cars-philippines/ | TODO when Philippines pipeline ready |
-| /china-car-export-company/ | TODO — corporate-level transactional page |
-
-## Notes
-
-- Pub schedule: 1 post per day max from blog.ucarsea.com, otherwise Google flags as content farm.
-- Series B should target the "{Year} {Brand} {Model} {Country}" long-tail combinations explicitly.
-- Each Series B article must:
-  - Be ≥1,500 words
-  - Have a landed cost worked example in USD
-  - Link to AH Hub + relevant country basics article + Atto 3 (the EV anchor reference)
-  - Have a customer-profile section ("who to sell this to")
-  - End with a "wrong answer" section pointing to alternative SKUs
+Do not delete journals to force a retry. For `push_failed`, `push_unknown` or a pending commit, reconcile the same commit first. A pending deployment is rechecked without creating another article or repeating uploads. Notifications are handled in the existing Codex daily report and weekly review; the publisher writes local evidence, not duplicate Feishu pushes.

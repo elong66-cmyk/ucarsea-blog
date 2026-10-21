@@ -27,3 +27,9 @@ pnpm-debug.log*
 scripts/release-log.txt
 scripts/launchd-stdout.log
 scripts/launchd-stderr.log
+
+# Operational release receipts and locks (not published content)
+scripts/release-state.json
+scripts/release-health.json
+scripts/release.lock
+**/__pycache__/
