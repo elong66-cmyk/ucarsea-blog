@@ -3,9 +3,9 @@ title: "When a Shortlisted Car Is Unavailable: Approve the Substitute as a New U
 description: "A dealer checklist for reviewing a replacement shortlist item without carrying over the original car’s price, photographs or approval."
 pubDate: 2026-10-24
 draft: true
-releaseApproved: false
+releaseApproved: true
 reviewStatus: ready
-reviewedOn: 2026-10-21
+reviewedOn: 2026-10-31
 category: Insights
 tags: [sourcing, alternatives, dealer-guide]
 keywords: [used car substitute approval checklist, replacement vehicle sourcing China]

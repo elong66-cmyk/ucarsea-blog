@@ -3,9 +3,9 @@ title: "Request Vehicle Documents Without Turning Owner Details into Marketing"
 description: "A document-request worksheet for vehicle sourcing: identity matching, redacted review copies, missing evidence and private verification responsibilities."
 pubDate: 2026-10-23
 draft: true
-releaseApproved: false
+releaseApproved: true
 reviewStatus: ready
-reviewedOn: 2026-10-21
+reviewedOn: 2026-10-31
 category: Inspection
 tags: [vehicle-documents, evidence, dealer-guide]
 keywords: [China used car document checklist, redacted vehicle document review]
