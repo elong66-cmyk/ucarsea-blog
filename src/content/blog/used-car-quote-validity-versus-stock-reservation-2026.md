@@ -1,8 +1,8 @@
 ---
 title: "A Valid Used-Car Quote Is Not a Stock Reservation"
 description: "Keep reference price, quote validity, seller hold and buyer approval separate when sourcing a specific used vehicle from China."
-pubDate: 2026-10-22
-draft: true
+pubDate: 2026-10-31
+draft: false
 releaseApproved: true
 reviewStatus: ready
 reviewedOn: 2026-10-31
