@@ -1,8 +1,8 @@
 ---
 title: "Request Vehicle Documents Without Turning Owner Details into Marketing"
 description: "A document-request worksheet for vehicle sourcing: identity matching, redacted review copies, missing evidence and private verification responsibilities."
-pubDate: 2026-10-23
-draft: true
+pubDate: 2026-11-01
+draft: false
 releaseApproved: true
 reviewStatus: ready
 reviewedOn: 2026-10-31
