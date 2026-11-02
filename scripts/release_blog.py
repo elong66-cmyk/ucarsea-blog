@@ -38,8 +38,19 @@ def inventory(repo: Path) -> list[dict]:
 
 def legacy_success_today(repo: Path, today: str) -> bool:
     log = repo / 'scripts/release-log.txt'
-    return log.exists() and any(line.startswith('[' + today + ' ') and ' RELEASED ' in line
-                                and 'pushed OK' in line for line in log.read_text().splitlines())
+    if not log.exists():
+        return False
+    for line in log.read_text().splitlines():
+        if ' RELEASED ' not in line or 'pushed OK' not in line:
+            continue
+        released = re.search(r'\(pubDate=(\d{4}-\d{2}-\d{2})\)', line)
+        # Verification may run days after the release. Use the actual release day.
+        if released:
+            if released.group(1) == today:
+                return True
+        elif line.startswith('[' + today + ' '):
+            return True  # Preserve receipts from the original date-less logger.
+    return False
 
 
 def load_state(repo: Path) -> dict:

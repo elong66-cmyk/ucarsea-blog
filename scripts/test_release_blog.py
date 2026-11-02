@@ -51,6 +51,34 @@ class ReleaseTests(unittest.TestCase):
         self.post()
         self.assertEqual(mod.Publisher(self.repo, '2026-10-21').publish()['status'], 'already_published_today_legacy_receipt')
 
+    def test_delayed_public_readback_does_not_consume_current_day(self):
+        (self.repo / 'scripts/release-log.txt').write_text(
+            '[2026-10-21 10:00:00] RELEASED old (pubDate=2026-10-20) — pushed OK; public HTTP200 verified\n')
+        self.assertFalse(mod.legacy_success_today(self.repo, '2026-10-21'))
+        self.assertTrue(mod.legacy_success_today(self.repo, '2026-10-20'))
+
+    def test_reconcile_previous_day_then_release_only_one_current_draft(self):
+        current = self.post('current', date='2026-10-21')
+        future = self.post('future', date='2026-10-22')
+        mod.atomic_json(self.repo / 'scripts/release-state.json', {'version': 1, 'history': [], 'current': {
+            'phase': 'pushed_public_pending', 'slug': 'previous', 'title': 'Previous',
+            'release_date': '2026-10-20', 'commit': 'previous-commit'}})
+        commands = []
+        def fake(repo, args, timeout=120):
+            commands.append(args)
+            if args[1] == 'branch': return 'main'
+            if args[1] == 'rev-parse': return 'current-commit'
+            return ''
+        with patch.object(mod, 'run_cmd', side_effect=fake), patch.object(
+                mod, 'verify_live', return_value={'public_verified': True, 'http': 200}):
+            first = mod.Publisher(self.repo, '2026-10-21').publish()
+            second = mod.Publisher(self.repo, '2026-10-21').publish()
+        self.assertEqual(first['status'], 'public_verified')
+        self.assertEqual(second['status'], 'already_published_today')
+        self.assertIn('draft: false', current.read_text())
+        self.assertIn('draft: true', future.read_text())
+        self.assertEqual(sum(command[1] == 'push' for command in commands), 1)
+
     def test_no_due_draft_is_not_published(self):
         result = mod.Publisher(self.repo, '2026-10-21').publish()
         self.assertTrue(result['requires_action'])
