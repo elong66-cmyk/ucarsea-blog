@@ -2,7 +2,7 @@
 title: "Your Receiving City Is Not Always the Port: What to Specify Before a Car Freight Quote"
 description: "A practical brief for separating the discharge port, inland destination and responsibility for each leg of a used-car shipment."
 pubDate: 2026-11-03
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-02
 releaseApproved: true
