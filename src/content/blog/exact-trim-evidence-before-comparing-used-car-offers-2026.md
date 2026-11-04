@@ -2,7 +2,7 @@
 title: "Same Model, Different Offer: Build an Exact-Trim Comparison Sheet"
 description: "Compare the identity and specification behind two used-car listings before interpreting their price difference."
 pubDate: 2026-11-04
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-02
 releaseApproved: true
