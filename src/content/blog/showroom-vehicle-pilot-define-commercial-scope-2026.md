@@ -2,7 +2,7 @@
 title: "Planning a Showroom Vehicle Pilot: Agree the Commercial Scope First"
 description: "Separate a display proposal from a confirmed purchase, consignment agreement or credit arrangement."
 pubDate: 2026-11-05
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-02
 releaseApproved: true
