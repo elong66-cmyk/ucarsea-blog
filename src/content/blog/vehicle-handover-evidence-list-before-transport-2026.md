@@ -2,7 +2,7 @@
 title: "Before Vehicle Handover: Match the Unit, Documents and Transport Instructions"
 description: "Create a handover evidence list without confusing supplier photographs with an independent inspection or a shipping receipt."
 pubDate: 2026-11-06
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-02
 releaseApproved: true
