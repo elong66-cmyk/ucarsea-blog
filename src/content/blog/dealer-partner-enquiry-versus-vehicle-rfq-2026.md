@@ -2,7 +2,7 @@
 title: "A Dealer Partnership Enquiry Is Different from a Vehicle Purchase Request"
 description: "Clarify a prospective dealer's role, market and sourcing requirements before treating a partnership application as a vehicle order."
 pubDate: 2026-11-07
-draft: true
+draft: false
 releaseApproved: true
 reviewStatus: ready
 reviewedOn: 2026-11-02
