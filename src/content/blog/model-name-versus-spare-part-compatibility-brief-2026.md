@@ -2,7 +2,7 @@
 title: "A Model Name Is Not a Spare-Part Compatibility Confirmation"
 description: "Build a model-specific parts enquiry before treating a photograph or catalogue listing as confirmation of the correct replacement component."
 pubDate: 2026-11-08
-draft: true
+draft: false
 releaseApproved: true
 reviewStatus: ready
 reviewedOn: 2026-11-02
