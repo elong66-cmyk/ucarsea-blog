@@ -1,7 +1,7 @@
 ---
 title: "Does the electric vehicle price include the battery and charger?"
 description: "Use a short component list to compare a vehicle-only price with a battery-and-charger configuration."
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-06
 releaseApproved: true
