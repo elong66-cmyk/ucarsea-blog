@@ -1,7 +1,7 @@
 ---
 title: "Model family versus sales channel: prepare a catalogue that fits the buyer"
 description: "Separate a vehicle's product family, the buyer's business role and the commercial supply format before building a dealer shortlist."
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-06
 releaseApproved: true
