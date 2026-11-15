@@ -1,7 +1,7 @@
 ---
 title: "Minimum order quantity and container loading capacity answer different questions"
 description: "Separate a supplier's order minimum from packing capacity, sample availability and mixed-model loading."
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-06
 releaseApproved: true
