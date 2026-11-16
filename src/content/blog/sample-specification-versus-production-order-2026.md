@@ -1,7 +1,7 @@
 ---
 title: "A sample vehicle is a reference, not the complete production order"
 description: "Keep the sample configuration and the later production specification separate when reviewing an electric vehicle range."
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-06
 releaseApproved: true
