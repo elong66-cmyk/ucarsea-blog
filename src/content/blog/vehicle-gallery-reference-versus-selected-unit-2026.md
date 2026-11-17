@@ -1,7 +1,7 @@
 ---
 title: "Is this a model gallery or the selected vehicle's photo set?"
 description: "Identify what a product gallery represents before using the pictures to confirm an individual vehicle or production version."
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-06
 releaseApproved: true
