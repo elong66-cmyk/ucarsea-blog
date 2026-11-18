@@ -2,7 +2,7 @@
 title: "Local Stock or Direct Import? Ask Which Offer You Are Comparing"
 description: "Separate the location of a vehicle from the supply route, quote scope and timing before comparing a local offer with a China sourcing proposal."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-08
 releaseApproved: true
