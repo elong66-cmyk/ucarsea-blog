@@ -2,7 +2,7 @@
 title: "How to Specify Steering Position in a Vehicle Sourcing Brief"
 description: "State the required steering position, confirm it on the exact vehicle and separate the specification from destination registration checks."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-09
 releaseApproved: true
