@@ -2,7 +2,7 @@
 title: "What Should a Remote Showroom Visit Show?"
 description: "Separate a business-location introduction from proof about a particular vehicle and agree a short, useful remote-visit agenda."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
