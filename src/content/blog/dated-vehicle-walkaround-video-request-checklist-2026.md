@@ -2,7 +2,7 @@
 title: "What to Request in a Dated Vehicle Walk-around Video"
 description: "Ask for a clear, dated walk-around tied to an exact vehicle reference, with limitations and follow-up inspection questions recorded."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
