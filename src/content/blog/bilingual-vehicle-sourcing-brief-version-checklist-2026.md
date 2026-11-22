@@ -2,7 +2,7 @@
 title: "How to Keep a Bilingual Vehicle Sourcing Brief Consistent"
 description: "Use one dated specification table for both languages and resolve differences before treating a supplier response as a matching offer."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
