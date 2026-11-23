@@ -2,7 +2,7 @@
 title: "What to Record When Reviewing an Adult Electric Motorcycle Layout"
 description: "Document the exact model, seat and control layout and separate catalogue measurements from a rider-specific evaluation."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
