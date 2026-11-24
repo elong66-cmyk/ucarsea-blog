@@ -2,7 +2,7 @@
 title: "Which Documents Belong in a Dealer Model Review Pack?"
 description: "Request model-matched manuals and a clear support handover list without assuming that a catalogue or document creates a warranty commitment."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
