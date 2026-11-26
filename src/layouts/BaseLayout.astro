@@ -109,8 +109,9 @@ const fullOgImage = new URL(ogImage, Astro.site).toString();
         var target = event.target;
         var link = target && target.closest ? target.closest("a[data-uc-blog-cta]") : null;
         if (!link || typeof window.gtag !== "function") return;
-        window.gtag("event", "blog_cta_click", {
-          cta_type: link.getAttribute("data-uc-blog-cta"),
+        var cta = link.getAttribute("data-uc-blog-cta");
+        window.gtag("event", cta === "whatsapp" ? "blog_whatsapp_click" : "blog_cta_click", {
+          cta_type: cta,
           page_path: location.pathname,
           event_category: "interaction"
         });

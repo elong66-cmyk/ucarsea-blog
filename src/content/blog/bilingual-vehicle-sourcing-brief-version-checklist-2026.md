@@ -7,6 +7,11 @@ reviewStatus: ready
 reviewedOn: 2026-11-18
 releaseApproved: true
 pubDate: 2026-11-22
+faq:
+  - question: "What should the English and translated sourcing briefs have in common?"
+    answer: "Use the same version identifier and keep the vehicle requirements, quantities and quotation basis aligned in both languages. Confirm changes in both versions before the supplier quotes."
+  - question: "How should a buyer record an unresolved difference in translation?"
+    answer: "Flag the affected requirement and ask the buyer to confirm its meaning. Keep that point open until the two versions agree."
 ---
 
 A bilingual sourcing brief should describe one buying requirement in two languages. Start with a short master table and a version date. When a requirement changes, update both versions together rather than sending an isolated correction that is easy to miss.

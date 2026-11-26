@@ -13,6 +13,16 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const faq = post.data.faq;
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map(({ question, answer }) => ({
+    "@type": "Question",
+    name: question,
+    acceptedAnswer: { "@type": "Answer", text: answer },
+  })),
+};
 
 // Sibling posts for "related"
 const all = (await getCollection("blog", ({ data }) => !data.draft)).filter(
@@ -78,6 +88,12 @@ const articleJsonLd = {
 
       <div class="uc-article-body">
         <Content />
+        {faq.length > 0 && (
+          <section aria-labelledby="article-faq">
+            <h2 id="article-faq">Frequently asked questions</h2>
+            {faq.map(({ question, answer }) => <><h3>{question}</h3><p>{answer}</p></>)}
+          </section>
+        )}
       </div>
 
       <ArticleCTA articleSlug={post.id} />
@@ -104,4 +120,8 @@ const articleJsonLd = {
     is:inline
     set:html={JSON.stringify(articleJsonLd)}
   />
+  {faq.length > 0 && (
+    <script type="application/ld+json" is:inline
+      set:html={JSON.stringify(faqJsonLd).replace(/</g, "\u003c")} />
+  )}
 </BaseLayout>

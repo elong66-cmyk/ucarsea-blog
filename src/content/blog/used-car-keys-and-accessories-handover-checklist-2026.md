@@ -7,6 +7,11 @@ reviewStatus: ready
 reviewedOn: 2026-11-25
 releaseApproved: true
 pubDate: 2026-11-26
+faq:
+  - question: "How do I check whether both keys are included and work?"
+    answer: "Ask for the number of keys supplied with the exact vehicle and which functions the seller can demonstrate. Record separately any key that the seller has not tested."
+  - question: "What do I do if an accessory is missing?"
+    answer: "Record it against the vehicle reference and check local availability and compatibility for a replacement before you accept the offer."
 ---
 
 Two offers for the same used-car model can include different sets of keys and accessories. One seller may have two working keys. Another may show a second key in the listing without confirming that it starts the selected vehicle. Record what will be handed over before you compare the offers.
