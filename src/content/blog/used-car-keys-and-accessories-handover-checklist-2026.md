@@ -2,7 +2,7 @@
 title: "When a Used Car Has Only One Key, Put It on the Order List"
 description: "A dealer checklist for recording the keys and accessories that will come with the selected used vehicle."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-25
 releaseApproved: true
