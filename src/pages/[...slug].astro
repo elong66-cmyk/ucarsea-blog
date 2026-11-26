@@ -122,6 +122,6 @@ const articleJsonLd = {
   />
   {faq.length > 0 && (
     <script type="application/ld+json" is:inline
-      set:html={JSON.stringify(faqJsonLd).replace(/</g, "\u003c")} />
+      set:html={JSON.stringify(faqJsonLd).replace(/</g, "\\u003c")} />
   )}
 </BaseLayout>
