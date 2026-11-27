@@ -2,7 +2,7 @@
 title: "Give Your Receiving Team an Exception List for the Used Cars It Expects"
 description: "How to brief a dealer's receiving team on known, changed and unverified vehicle details."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-25
 releaseApproved: true
