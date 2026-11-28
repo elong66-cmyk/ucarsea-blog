@@ -2,7 +2,7 @@
 title: "Ask for a Packaged Demonstration Unit Before Designing Your E-Moto Display"
 description: "What a dealer should learn from an electric-motorcycle demonstration unit before setting up a showroom."
 category: "Insights"
-draft: true
+draft: false
 reviewStatus: ready
 reviewedOn: 2026-11-25
 releaseApproved: true
